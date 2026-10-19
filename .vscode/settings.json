@@ -1,0 +1,167 @@
+{
+  "workbench.editorAssociations": {
+    "*.drawio.xml": "hediet.vscode-drawio-text"
+  },
+  "files.associations": {
+    "*.drawio.xml": "drawio"
+  },
+  "hediet.vscode-drawio.plugins": [
+    {
+      "file": "${workspaceFolder}/../tools/draw-io/mathjax-definitions.plugin.js"
+    },
+    {
+      "file": "${workspaceFolder}/../tools/draw-io/label-colours.plugin.js"
+    },
+    {
+      "file": "${workspaceFolder}/../tools/draw-io/single-page.plugin.js"
+    },
+    {
+      "file": "${workspaceFolder}/../tools/draw-io/click-through.plugin.js"
+    },
+    {
+      "file": "${workspaceFolder}/.vscode/video.plugin.js"
+    }
+  ],
+  "hediet.vscode-drawio.colorNames": {
+    "000000": "Black",
+    "004D7F": "Keyword / emphasis (dark blue)",
+    "B30306": "Resource (red)",
+    "FFFFFF": "White",
+    "0E8005": "Functionality (green)",
+    "C82506": "Resource red",
+    "00882B": "Functionality green",
+    "B20000": "Dpred",
+    "008000": "Dpgreen",
+    "D6780A": "Implementation (orange)",
+    "FF9410": "Imporange",
+    "0076BA": "Label blue",
+    "EE220C": "Resource red dark",
+    "FE930C": "Implementation orange",
+    "4286F4": "Specificationcolor",
+    "C82608": "Resource red light",
+    "B8B8B8": "Grey",
+    "09882A": "Functionality green dark",
+    "CB297B": "Magenta",
+    "00A2FF": "Blue",
+    "B51700": "Red",
+    "5E5E5E": "Grey dark",
+    "004D80": "Blue dark",
+    "AD3E00": "Resource red deep",
+    "C53E12": "Resource red pale",
+    "017100": "Green"
+  },
+  "hediet.vscode-drawio.presetColors": [
+    "000000",
+    "004D7F",
+    "B30306",
+    "FFFFFF",
+    "0E8005",
+    "C82506",
+    "00882B",
+    "B20000",
+    "008000",
+    "D6780A",
+    "FF9410",
+    "0076BA",
+    "EE220C",
+    "FE930C",
+    "4286F4",
+    "C82608",
+    "B8B8B8",
+    "09882A",
+    "CB297B",
+    "00A2FF",
+    "B51700",
+    "5E5E5E",
+    "004D80",
+    "AD3E00",
+    "C53E12",
+    "017100"
+  ],
+  "hediet.vscode-drawio.customColorSchemes": [
+    [
+      {
+        "fill": "#000000",
+        "stroke": "#000000",
+        "font": "#ffffff"
+      },
+      {
+        "fill": "#004d7f",
+        "stroke": "#004d7f",
+        "font": "#ffffff"
+      },
+      {
+        "fill": "#b30306",
+        "stroke": "#b30306",
+        "font": "#ffffff"
+      },
+      {
+        "fill": "#0e8005",
+        "stroke": "#0e8005",
+        "font": "#ffffff"
+      },
+      {
+        "fill": "#c82506",
+        "stroke": "#c82506",
+        "font": "#ffffff"
+      },
+      {
+        "fill": "#00882b",
+        "stroke": "#00882b",
+        "font": "#ffffff"
+      },
+      {
+        "fill": "#b20000",
+        "stroke": "#b20000",
+        "font": "#ffffff"
+      },
+      {
+        "fill": "#008000",
+        "stroke": "#008000",
+        "font": "#ffffff"
+      }
+    ],
+    [
+      {
+        "fill": "none",
+        "stroke": "#000000",
+        "font": "#000000"
+      },
+      {
+        "fill": "none",
+        "stroke": "#004d7f",
+        "font": "#004d7f"
+      },
+      {
+        "fill": "none",
+        "stroke": "#b30306",
+        "font": "#b30306"
+      },
+      {
+        "fill": "none",
+        "stroke": "#0e8005",
+        "font": "#0e8005"
+      },
+      {
+        "fill": "none",
+        "stroke": "#c82506",
+        "font": "#c82506"
+      },
+      {
+        "fill": "none",
+        "stroke": "#00882b",
+        "font": "#00882b"
+      },
+      {
+        "fill": "none",
+        "stroke": "#b20000",
+        "font": "#b20000"
+      },
+      {
+        "fill": "none",
+        "stroke": "#008000",
+        "font": "#008000"
+      }
+    ]
+  ]
+}

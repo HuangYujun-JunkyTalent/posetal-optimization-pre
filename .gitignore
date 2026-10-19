@@ -1,3 +1,8 @@
 .slidev/
 build/
 public/slides-generated/
+slides.md
+style.css
+node_modules/
+.DS_Store
+.vscode/video.plugin.js
