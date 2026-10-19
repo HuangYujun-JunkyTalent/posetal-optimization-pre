@@ -1,0 +1,857 @@
+<mxfile host="65bd71144e" pages="6">
+    <diagram id="5-1-section" name="section-case-study-1">
+        <mxGraphModel dx="1772" dy="1085" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="section-case-study-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=44;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;b&gt;Case study: rocket landing trajectory finding&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="44" width="1400" x="260" y="33.06" as="geometry"/>
+                </mxCell>
+                <mxCell id="section-case-study-outline" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=32;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;div style=&quot;line-height: 40px&quot;&gt;&lt;ul style=&quot;margin: 0; padding-left: 26.07px; list-style-type: &#39;‣  &#39;&quot;&gt;&lt;li&gt;&lt;font color=&quot;#8b959e&quot;&gt;Decisions, selection via metrics, and priorities on metrics&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 8.44px&quot;&gt;&lt;font color=&quot;#8b959e&quot;&gt;Semantics of priority structures&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 8.44px&quot;&gt;&lt;font color=&quot;#8b959e&quot;&gt;Algorithms for partial-order structures&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 8.44px&quot;&gt;&lt;b&gt;Case study: rocket landing trajectory finding&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 8.44px&quot;&gt;&lt;font color=&quot;#8b959e&quot;&gt;Conclusion and future work&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="320" width="932.66" x="486.62" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="section-case-study-number" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=22;fontFamily=Helvetica;fontColor=#000000;" value="%slide%/%slides%" vertex="1">
+                    <mxGeometry height="26" width="200" x="1696" y="1037" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="5-2-landing" name="case-study-landing-1">
+        <mxGraphModel dx="1772" dy="1085" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="case-study-landing-1-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=44;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;b&gt;A rocket landing with six requirements and two objectives&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="44" width="1400" x="260" y="33.06" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-left" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#8b959e;strokeWidth=2;" value="" vertex="1">
+                    <mxGeometry height="642" width="560" x="120" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-right" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#8b959e;strokeWidth=2;" value="" vertex="1">
+                    <mxGeometry height="642" width="1020" x="800" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-arrow" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=4;strokeColor=#000000;endArrow=classic;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="695" y="461" as="sourcePoint"/>
+                        <mxPoint x="790" y="461" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-landing-1-ground" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#8b959e;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="145" y="660" as="sourcePoint"/>
+                        <mxPoint x="655" y="660" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-landing-1-cone-right" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;dashed=1;dashPattern=8 6;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="660" as="sourcePoint"/>
+                        <mxPoint x="655" y="632.38" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-landing-1-cone-left" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;dashed=1;dashPattern=8 6;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="660" as="sourcePoint"/>
+                        <mxPoint x="145" y="651.96" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-landing-1-vertical" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#8b959e;endArrow=none;endFill=1;dashed=1;dashPattern=8 6;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="660" as="sourcePoint"/>
+                        <mxPoint x="260" y="356" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-landing-1-trajectory" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=3;strokeColor=#000000;endArrow=none;endFill=1;curved=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="615" y="480"/>
+                            <mxPoint x="600" y="560"/>
+                            <mxPoint x="470" y="622"/>
+                            <mxPoint x="320" y="644"/>
+                        </Array>
+                        <mxPoint x="560" y="435" as="sourcePoint"/>
+                        <mxPoint x="268" y="656" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-landing-1-start" parent="1" style="ellipse;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=3;" value="" vertex="1">
+                    <mxGeometry height="16" width="16" x="552" y="427" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-target" parent="1" style="ellipse;html=1;aspect=fixed;fillColor=#000000;strokeColor=none;strokeWidth=0;" value="" vertex="1">
+                    <mxGeometry height="14" width="14" x="253" y="653" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-start-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=26;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="start" vertex="1">
+                    <mxGeometry height="34" width="120" x="500" y="385" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-touchdown" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#8b959e;strokeWidth=2;" value="" vertex="1">
+                    <mxGeometry height="190" width="530" x="135" y="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-touchdown-vertical" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#8b959e;endArrow=none;endFill=1;dashed=1;dashPattern=8 6;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="175" as="sourcePoint"/>
+                        <mxPoint x="260" y="345" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-landing-1-rocket" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=8;html=1;whiteSpace=wrap;fillColor=#eef0f2;strokeColor=#000000;strokeWidth=2;rotation=5;" value="" vertex="1">
+                    <mxGeometry height="76" width="20" x="250" y="245" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-thrust" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=3;strokeColor=#000000;endArrow=classic;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="262.5" y="243" as="sourcePoint"/>
+                        <mxPoint x="267.57" y="185" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-landing-1-thrust-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=26;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="thrust" vertex="1">
+                    <mxGeometry height="34" width="100" x="282" y="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-touchdown-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=26;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;div style=&quot;line-height: 34px&quot;&gt;\(p\): tilt at most 40° in flight&lt;br&gt;\(a\): tilt at most 5° near touchdown&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="80" width="370" x="290" y="226" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-target-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=26;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(e\): land on the target" vertex="1">
+                    <mxGeometry height="32" width="500" x="150" y="668" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-cone-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=26;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(g\): stay above the glide cone" vertex="1">
+                    <mxGeometry height="32" width="500" x="150" y="734" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-source" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;font color=&quot;#8b959e&quot;&gt;&lt;i&gt;Problem 104 of Malyuta and coauthors&lt;/i&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="40" width="445" x="1350" y="730" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-speed-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=26;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(v\): limited speed" vertex="1">
+                    <mxGeometry height="34" width="300" x="280" y="455" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-touchdown-speed-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=26;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(s\): touch down softly" vertex="1">
+                    <mxGeometry height="32" width="500" x="150" y="701" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-requirements" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=32;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="meet six requirements \(g, s, p, v, a, e\)" vertex="1">
+                    <mxGeometry height="90" width="860" x="880" y="311" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-objectives" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=32;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="minimize the fuel \(f\) and the control energy \(c\)" vertex="1">
+                    <mxGeometry height="90" width="860" x="880" y="461" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-caption" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;font color=&quot;#8b959e&quot;&gt;&lt;i&gt;higher means more important&lt;/i&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="40" width="520" x="880" y="571" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-landing-1-number" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=22;fontFamily=Helvetica;fontColor=#000000;" value="%slide%/%slides%" vertex="1">
+                    <mxGeometry height="26" width="200" x="1696" y="1037" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="5-3-first-case" name="case-study-first-case-1">
+        <mxGraphModel dx="1772" dy="1085" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="case-study-first-case-1-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=44;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;b&gt;Upright for the last 2 s: every order has the same optimal landings&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="44" width="1400" x="260" y="33.06" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-legend" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;font color=&quot;#8b959e&quot;&gt;&lt;i&gt;\(g\): glide cone, \(s\): soft touchdown, \(p\): tilt in flight, \(v\): speed, \(a\): upright, \(e\): target&lt;/i&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="36" width="1666.88" x="136.56" y="92" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-higher" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;font color=&quot;#8b959e&quot;&gt;&lt;i&gt;higher means more important&lt;/i&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="36" width="520" x="140" y="622" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(e\) lowest" vertex="1">
+                    <mxGeometry height="38" width="300" x="181.6" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-g" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(g\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="206.6" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-s" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(s\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="396.6" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-v" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(v\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="171.6" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-p" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(p\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="301.6" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-a" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(a\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="431.6" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-e" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(e\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="301.6" y="375.432" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-f" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(f\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="206.6" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-c" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(c\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="396.6" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-edge-gv" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="226.179" y="250.988" as="sourcePoint"/>
+                        <mxPoint x="212.021" y="286.295" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-edge-gp" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="257.219" y="243.944" as="sourcePoint"/>
+                        <mxPoint x="310.981" y="293.34" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-edge-sp" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="405.981" y="243.944" as="sourcePoint"/>
+                        <mxPoint x="352.219" y="293.34" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-edge-sa" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="437.021" y="250.988" as="sourcePoint"/>
+                        <mxPoint x="451.179" y="286.295" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-edge-ve" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="224.775" y="327.998" as="sourcePoint"/>
+                        <mxPoint x="308.425" y="384.718" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-edge-pe" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="331.6" y="340.284" as="sourcePoint"/>
+                        <mxPoint x="331.6" y="372.432" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-edge-ae" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="438.425" y="327.998" as="sourcePoint"/>
+                        <mxPoint x="354.775" y="384.718" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-edge-ef" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="318.216" y="425.026" as="sourcePoint"/>
+                        <mxPoint x="249.984" y="550.406" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-e-edge-ec" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="344.984" y="425.026" as="sourcePoint"/>
+                        <mxPoint x="413.216" y="550.406" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(a\) lowest" vertex="1">
+                    <mxGeometry height="38" width="300" x="607.2" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-g" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(g\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="632.2" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-s" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(s\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="822.2" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-v" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(v\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="632.2" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-p" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(p\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="822.2" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-e" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(e\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="727.2" y="375.432" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-a" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(a\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="727.2" y="462.716" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-f" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(f\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="632.2" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-c" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(c\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="822.2" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-edge-gv" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="662.2" y="253" as="sourcePoint"/>
+                        <mxPoint x="662.2" y="284.284" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-edge-gp" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="687.644" y="236.689" as="sourcePoint"/>
+                        <mxPoint x="826.756" y="300.595" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-edge-sp" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="852.2" y="253" as="sourcePoint"/>
+                        <mxPoint x="852.2" y="284.284" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-edge-ve" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="682.725" y="331.329" as="sourcePoint"/>
+                        <mxPoint x="736.675" y="381.387" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-edge-pe" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="831.675" y="331.329" as="sourcePoint"/>
+                        <mxPoint x="777.725" y="381.387" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-edge-ea" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="757.2" y="428.432" as="sourcePoint"/>
+                        <mxPoint x="757.2" y="459.716" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-edge-af" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="736.581" y="506.66" as="sourcePoint"/>
+                        <mxPoint x="682.819" y="556.056" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-a-edge-ac" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="777.819" y="506.66" as="sourcePoint"/>
+                        <mxPoint x="831.581" y="556.056" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(p\) lowest" vertex="1">
+                    <mxGeometry height="38" width="300" x="1032.8" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-g" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(g\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1057.8" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-s" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(s\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1247.8" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-v" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(v\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1057.8" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-a" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(a\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1247.8" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-e" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(e\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1152.8" y="375.432" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-p" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(p\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1152.8" y="462.716" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-f" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(f\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1057.8" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-c" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(c\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1247.8" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-edge-gv" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1087.8" y="253" as="sourcePoint"/>
+                        <mxPoint x="1087.8" y="284.284" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-edge-sa" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1277.8" y="253" as="sourcePoint"/>
+                        <mxPoint x="1277.8" y="284.284" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-edge-ve" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1108.325" y="331.329" as="sourcePoint"/>
+                        <mxPoint x="1162.275" y="381.387" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-edge-ae" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1257.275" y="331.329" as="sourcePoint"/>
+                        <mxPoint x="1203.325" y="381.387" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-edge-ep" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1182.8" y="428.432" as="sourcePoint"/>
+                        <mxPoint x="1182.8" y="459.716" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-edge-pf" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1162.181" y="506.66" as="sourcePoint"/>
+                        <mxPoint x="1108.419" y="556.056" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-p-edge-pc" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1203.419" y="506.66" as="sourcePoint"/>
+                        <mxPoint x="1257.181" y="556.056" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(s\) lowest" vertex="1">
+                    <mxGeometry height="38" width="300" x="1458.4" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-g" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(g\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1578.4" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-p" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(p\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1448.4" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-v" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(v\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1578.4" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-a" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(a\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1708.4" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-e" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(e\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1578.4" y="375.432" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-s" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(s\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1578.4" y="462.716" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-f" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(f\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1483.4" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-c" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(c\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1673.4" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-edge-gp" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1585.154" y="240.608" as="sourcePoint"/>
+                        <mxPoint x="1501.646" y="296.676" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-edge-gv" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1608.4" y="253" as="sourcePoint"/>
+                        <mxPoint x="1608.4" y="284.284" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-edge-ga" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1631.646" y="240.608" as="sourcePoint"/>
+                        <mxPoint x="1715.154" y="296.676" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-edge-pe" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1501.575" y="327.998" as="sourcePoint"/>
+                        <mxPoint x="1585.225" y="384.718" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-edge-ve" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1608.4" y="340.284" as="sourcePoint"/>
+                        <mxPoint x="1608.4" y="372.432" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-edge-ae" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1715.225" y="327.998" as="sourcePoint"/>
+                        <mxPoint x="1631.575" y="384.718" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-edge-es" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1608.4" y="428.432" as="sourcePoint"/>
+                        <mxPoint x="1608.4" y="459.716" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-edge-sf" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1587.781" y="506.66" as="sourcePoint"/>
+                        <mxPoint x="1534.019" y="556.056" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-order-s-edge-sc" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1629.019" y="506.66" as="sourcePoint"/>
+                        <mxPoint x="1682.781" y="556.056" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-result" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;The optimal landings meet all six requirements.&lt;br&gt;The optimal landings trade the fuel \(f\) against the control energy \(c\).&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="96" width="901.5" x="509.25" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-list" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=32;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;div style=&quot;line-height: 40px&quot;&gt;&lt;ul style=&quot;margin: 0; padding-left: 26.07px; list-style-type: &#39;‣  &#39;&quot;&gt;&lt;li&gt;a landing that meets all six requirements is better than every landing that violates one, whatever the order&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="40" width="1680" x="140" y="815" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-first-case-1-number" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=22;fontFamily=Helvetica;fontColor=#000000;" value="%slide%/%slides%" vertex="1">
+                    <mxGeometry height="26" width="200" x="1696" y="1037" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="5-4-front" name="case-study-front-1">
+        <mxGraphModel dx="1772" dy="1085" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="case-study-front-1-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=44;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;b&gt;The optimal landings trade fuel against control energy&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="44" width="1400" x="260" y="33.06" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-front-1-figure" parent="1" style="shape=image;html=1;imageAspect=1;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=data:image/svg+xml,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIKICAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjEwMDBwdCIgaGVpZ2h0PSI2MjBwdCIgdmlld0JveD0iMCAwIDEwMDAgNjIwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiA8bWV0YWRhdGE+CiAgPHJkZjpSREYgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICA8Y2M6V29yaz4KICAgIDxkYzp0eXBlIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiLz4KICAgIDxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PgogICAgPGRjOmNyZWF0b3I+CiAgICAgPGNjOkFnZW50PgogICAgICA8ZGM6dGl0bGU+TWF0cGxvdGxpYiB2My4xMS4yLCBodHRwczovL21hdHBsb3RsaWIub3JnLzwvZGM6dGl0bGU+CiAgICAgPC9jYzpBZ2VudD4KICAgIDwvZGM6Y3JlYXRvcj4KICAgPC9jYzpXb3JrPgogIDwvcmRmOlJERj4KIDwvbWV0YWRhdGE+CiA8ZGVmcz4KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPip7c3Ryb2tlLWxpbmVqb2luOiByb3VuZDsgc3Ryb2tlLWxpbmVjYXA6IGJ1dHR9PC9zdHlsZT4KIDwvZGVmcz4KIDxnIGlkPSJmaWd1cmVfMSI+CiAgPGcgaWQ9InBhdGNoXzEiPgogICA8cGF0aCBkPSJNIDAgNjIwIApMIDEwMDAgNjIwIApMIDEwMDAgMCAKTCAwIDAgCnoKIiBzdHlsZT0iZmlsbDogI2ZmZmZmZiIvPgogIDwvZz4KICA8ZyBpZD0iYXhlc18xIj4KICAgPGcgaWQ9InBhdGNoXzIiPgogICAgPHBhdGggZD0iTSAxMDUuNTQwNDQgNTQ3LjAwOTc2IApMIDk5Ni45OTk3NiA1NDcuMDA5NzYgCkwgOTk2Ljk5OTc2IDEzLjczMDcxNiAKTCAxMDUuNTQwNDQgMTMuNzMwNzE2IAp6CiIgc3R5bGU9ImZpbGw6ICNmZmZmZmYiLz4KICAgPC9nPgogICA8ZyBpZD0ibWF0cGxvdGxpYi5heGlzXzEiPgogICAgPGcgaWQ9Inh0aWNrXzEiPgogICAgIDxnIGlkPSJsaW5lMmRfMSI+CiAgICAgIDxkZWZzPgogICAgICAgPHBhdGggaWQ9Im0wNmM3YmYwNWMxIiBkPSJNIDAgMCAKTCAwIDcuNSAKIiBzdHlsZT0ic3Ryb2tlOiAjMDAwMDAwOyBzdHJva2Utd2lkdGg6IDEuNSIvPgogICAgICA8L2RlZnM+CiAgICAgIDxnPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjbTA2YzdiZjA1YzEiIHg9IjEyMi41NTU5NTYiIHk9IjU0Ny4wMDk3NiIgc3R5bGU9InN0cm9rZTogIzAwMDAwMDsgc3Ryb2tlLXdpZHRoOiAxLjUiLz4KICAgICAgPC9nPgogICAgIDwvZz4KICAgICA8ZyBpZD0idGV4dF8xIj4KICAgICAgPCEtLSA0MzcgLS0+CiAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwNC4wMDA4ODEgNTc3LjA1MjE0KSBzY2FsZSgwLjI0OTkgLTAuMjQ5OSkiPgogICAgICAgPGRlZnM+CiAgICAgICAgPHBhdGggaWQ9IlNUSVhUd29UZXh0LTc4YSIgZD0iTSAyNDI2IDAgCkwgMTg1NiAwIApMIDE4NTYgMTAxMSAKTCA4MyAxMDExIApMIDgzIDE0MTQgCkwgMjAzNSA0MTI4IApMIDI0MjYgNDEyOCAKTCAyNDI2IDE0NTMgCkwgMzA3OCAxNDUzIApMIDMwNzggMTAxMSAKTCAyNDI2IDEwMTEgCkwgMjQyNiAwIAp6Ck0gNDM1IDE0NzggCkwgNDM1IDE0NTMgCkwgMTg1NiAxNDUzIApMIDE4NTYgMzQzMCAKTCAxODMwIDM0MzAgCkwgNDM1IDE0NzggCnoKIiB0cmFuc2Zvcm09InNjYWxlKDAuMDE1NjI1KSIvPgogICAgICAgIDxwYXRoIGlkPSJTVElYVHdvVGV4dC03ODkiIGQ9Ik0gMTA5NCAtODMgClEgODA2IC04MyA2NTIgLTI4IApRIDQ5OSAyNiA0MzggMTA2IApRIDM3OCAxODYgMzc4IDI2OSAKUSAzNzggMzcxIDQ0MiA0NjAgClEgNTA2IDU1MCA2MjcgNTUwIApRIDcyMyA1NTAgODI4IDUwMiAKUSA5MzQgNDU0IDEwNDkgMzkzIApRIDExNjUgMzMzIDEyODMgMjg1IApRIDE0MDIgMjM3IDE1MjMgMjM3IApRIDE3MjggMjM3IDE5MDcgMzEwIApRIDIwODYgMzg0IDIyMDEgNTYwIApRIDIzMTcgNzM2IDIzMTcgMTA1MCAKUSAyMzE3IDEzMzggMjE1NyAxNTQ5IApRIDE5OTcgMTc2MCAxNzMxIDE4NzggClEgMTQ2NiAxOTk3IDExNTggMTk5NyAKTCAxMDMwIDE5OTcgCkwgMTAzMCAyMjQwIApMIDExNTIgMjI0MCAKUSAxMzcwIDIyNDAgMTU3NCAyMzQ5IApRIDE3NzkgMjQ1OCAxOTEwIDI2NTYgClEgMjA0MiAyODU0IDIwNDIgMzExMCAKUSAyMDQyIDMzOTIgMTg2NiAzNTQ5IApRIDE2OTAgMzcwNiAxMzg5IDM3MDYgClEgMTEwMSAzNzA2IDkwOSAzNTc0IApRIDcxNyAzNDQzIDU1MCAzMTg3IApMIDQwMyAzMjcwIApRIDU4MiAzNjg2IDg3NiAzOTA0IApRIDExNzEgNDEyMiAxNTYyIDQxMjIgClEgMjA1NCA0MTIyIDIzMjMgMzg3NSAKUSAyNTkyIDM2MjkgMjU5MiAzMjY0IApRIDI1OTIgMjkzMSAyMzk3IDI3MjYgClEgMjIwMiAyNTIyIDE5MDEgMjMzMCAKTCAxOTAxIDIzMTAgClEgMjE1NyAyMjM0IDIzNzEgMjA5MCAKUSAyNTg2IDE5NDYgMjcxNCAxNzM4IApRIDI4NDIgMTUzMCAyODQyIDEyNDIgClEgMjg0MiA4MDYgMjU5OCA1MDggClEgMjM1NSAyMTEgMTk1OCA2NCAKUSAxNTYyIC04MyAxMDk0IC04MyAKegoiIHRyYW5zZm9ybT0ic2NhbGUoMC4wMTU2MjUpIi8+CiAgICAgICAgPHBhdGggaWQ9IlNUSVhUd29UZXh0LTc4ZCIgZD0iTSAxNDcyIC01MSAKTCA5NjYgLTUxIApMIDI0NzcgMzUxNCAKTCAxMDUwIDM1MTQgClEgODcwIDM1MTQgNzc0IDM0ODIgClEgNjc4IDM0NTAgNjE3IDMzNDcgClEgNTU3IDMyNDUgNDY3IDMwMzQgCkwgMjY5IDMwNTMgCkwgNTI1IDQwMzIgCkwgMjk3MCA0MDMyIApMIDI5NzAgMzgzNCAKTCAxNDcyIC01MSAKegoiIHRyYW5zZm9ybT0ic2NhbGUoMC4wMTU2MjUpIi8+CiAgICAgICA8L2RlZnM+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03OGEiLz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4OSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDkuNSAwKSIvPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtNzhkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5OSAwKSIvPgogICAgICA8L2c+CiAgICAgPC9nPgogICAgPC9nPgogICAgPGcgaWQ9Inh0aWNrXzIiPgogICAgIDxnIGlkPSJsaW5lMmRfMiI+CiAgICAgIDxnPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjbTA2YzdiZjA1YzEiIHg9IjI1Ny4xOTUwNCIgeT0iNTQ3LjAwOTc2IiBzdHlsZT0ic3Ryb2tlOiAjMDAwMDAwOyBzdHJva2Utd2lkdGg6IDEuNSIvPgogICAgICA8L2c+CiAgICAgPC9nPgogICAgIDxnIGlkPSJ0ZXh0XzIiPgogICAgICA8IS0tIDQzOCAtLT4KICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjM4LjYzOTk2NSA1NzcuMDUyMTQpIHNjYWxlKDAuMjQ5OSAtMC4yNDk5KSI+CiAgICAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBpZD0iU1RJWFR3b1RleHQtNzhlIiBkPSJNIDE1NzQgLTc3IApRIDEyMDMgLTc3IDkxNSAzMiAKUSA2MjcgMTQxIDQ2MCAzNjEgClEgMjk0IDU4MiAyOTQgOTA5IApRIDI5NCAxMTY1IDM5MCAxMzQxIApRIDQ4NiAxNTE3IDY4MSAxNjcwIApRIDg3NyAxODI0IDExNzEgMjAyMiAKTCAxMTcxIDIwOTkgCkwgMTQyMSAxOTY1IApRIDEyMjIgMTgwNSAxMDgxIDE2NjQgClEgOTQxIDE1MjMgODY3IDEzNTYgClEgNzk0IDExOTAgNzk0IDk2MCAKUSA3OTQgNTMxIDEwMTQgMzI2IApRIDEyMzUgMTIyIDE2MDAgMTIyIApRIDE3OTggMTIyIDE5NjQgMTk1IApRIDIxMzEgMjY5IDIyMzAgNDEzIApRIDIzMzAgNTU3IDIzMzAgNzc0IApRIDIzMzAgOTg2IDIyNDMgMTE1OCAKUSAyMTU3IDEzMzEgMTkyOSAxNTIwIApRIDE3MDIgMTcwOSAxMjgwIDE5NzggCkwgMTI0OCAxOTkwIApRIDg5MCAyMjM0IDcwMSAyNDE5IApRIDUxMiAyNjA1IDQ0NSAyNzg3IApRIDM3OCAyOTcwIDM3OCAzMTk0IApRIDM3OCAzNDg4IDUzNCAzNjk5IApRIDY5MSAzOTEwIDk2NiA0MDI1IApRIDEyNDIgNDE0MSAxNTk0IDQxNDEgClEgMTkxNCA0MTQxIDIxNjYgNDAyNSAKUSAyNDE5IDM5MTAgMjU2NiAzNzEyIApRIDI3MTQgMzUxNCAyNzE0IDMyNTggClEgMjcxNCAzMDI3IDI2MzAgMjg2MCAKUSAyNTQ3IDI2OTQgMjM2OCAyNTU2IApRIDIxODkgMjQxOSAxODg4IDIyNTMgCkwgMTg4OCAyMTc2IApMIDE2MTkgMjMxNyAKUSAxOTc4IDI1MjIgMjEwOSAyNzM2IApRIDIyNDAgMjk1MCAyMjQwIDMyNzAgClEgMjI0MCAzNTkwIDIwNjQgMzc2MCAKUSAxODg4IDM5MzAgMTU4MSAzOTMwIApRIDEyNTQgMzkzMCAxMDY1IDM3NjYgClEgODc3IDM2MDMgODc3IDMzMDkgClEgODc3IDMwMTQgMTA4OCAyODAzIApRIDEyOTkgMjU5MiAxNzY2IDIzMTAgCkwgMTgxMSAyMjc4IApRIDIyMTQgMjA0MiAyNDQ0IDE4NDAgClEgMjY3NSAxNjM4IDI3NzEgMTQzMyAKUSAyODY3IDEyMjkgMjg2NyA5NjAgClEgMjg2NyA2MjcgMjcwNCAzOTMgClEgMjU0MSAxNjAgMjI0OSA0MSAKUSAxOTU4IC03NyAxNTc0IC03NyAKegoiIHRyYW5zZm9ybT0ic2NhbGUoMC4wMTU2MjUpIi8+CiAgICAgICA8L2RlZnM+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03OGEiLz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4OSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDkuNSAwKSIvPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtNzhlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5OSAwKSIvPgogICAgICA8L2c+CiAgICAgPC9nPgogICAgPC9nPgogICAgPGcgaWQ9Inh0aWNrXzMiPgogICAgIDxnIGlkPSJsaW5lMmRfMyI+CiAgICAgIDxnPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjbTA2YzdiZjA1YzEiIHg9IjM5MS44MzQxMjUiIHk9IjU0Ny4wMDk3NiIgc3R5bGU9InN0cm9rZTogIzAwMDAwMDsgc3Ryb2tlLXdpZHRoOiAxLjUiLz4KICAgICAgPC9nPgogICAgIDwvZz4KICAgICA8ZyBpZD0idGV4dF8zIj4KICAgICAgPCEtLSA0MzkgLS0+CiAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM3My4yNzkwNSA1NzcuMDUyMTQpIHNjYWxlKDAuMjQ5OSAtMC4yNDk5KSI+CiAgICAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBpZD0iU1RJWFR3b1RleHQtNzhmIiBkPSJNIDU0NCAtODMgCkwgNTMxIDEwMiAKUSA5NzMgMTU0IDEzNDQgMzYyIApRIDE3MTUgNTcwIDE5NjEgOTMxIApRIDIyMDggMTI5MyAyMjc4IDE4MTEgCkwgMjI0MCAxODE4IApRIDIwMjIgMTYxOSAxODMzIDE1MjAgClEgMTY0NSAxNDIxIDE0MDIgMTQyMSAKUSA4NzcgMTQyMSA1NjMgMTc3NiAKUSAyNTAgMjEzMSAyNTAgMjc2NSAKUSAyNTAgMzQxMSA1OTIgMzc3MiAKUSA5MzQgNDEzNCAxNTM2IDQxMzQgClEgMjAxNiA0MTM0IDIzMTAgMzg5NyAKUSAyNjA1IDM2NjEgMjc0MiAzMjY0IApRIDI4ODAgMjg2NyAyODgwIDIzOTQgClEgMjg4MCAxNzczIDI3MTMgMTMxMiAKUSAyNTQ3IDg1MSAyMjQwIDU0MCAKUSAxOTMzIDIzMCAxNTA0IDc2IApRIDEwNzUgLTc3IDU0NCAtODMgCnoKTSAxNTk0IDE3OTggClEgMTg3NSAxNzk4IDIwODkgMTk2OCAKUSAyMzA0IDIxMzggMjMwNCAyNTQ3IApRIDIzMDQgMjk1MCAyMjI0IDMyNTcgClEgMjE0NCAzNTY1IDE5NjggMzc0MSAKUSAxNzkyIDM5MTcgMTUxMCAzOTE3IApRIDExOTcgMzkxNyAxMDAxIDM2NjcgClEgODA2IDM0MTggODA2IDI4MDMgClEgODA2IDIzNTUgMTAwMSAyMDc2IApRIDExOTcgMTc5OCAxNTk0IDE3OTggCnoKIiB0cmFuc2Zvcm09InNjYWxlKDAuMDE1NjI1KSIvPgogICAgICAgPC9kZWZzPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtNzhhIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03ODkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ5LjUgMCkiLz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4ZiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOTkgMCkiLz4KICAgICAgPC9nPgogICAgIDwvZz4KICAgIDwvZz4KICAgIDxnIGlkPSJ4dGlja180Ij4KICAgICA8ZyBpZD0ibGluZTJkXzQiPgogICAgICA8Zz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI20wNmM3YmYwNWMxIiB4PSI1MjYuNDczMjA5IiB5PSI1NDcuMDA5NzYiIHN0eWxlPSJzdHJva2U6ICMwMDAwMDA7IHN0cm9rZS13aWR0aDogMS41Ii8+CiAgICAgIDwvZz4KICAgICA8L2c+CiAgICAgPGcgaWQ9InRleHRfNCI+CiAgICAgIDwhLS0gNDQwIC0tPgogICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MDcuOTE4MTM0IDU3Ny4wNTIxNCkgc2NhbGUoMC4yNDk5IC0wLjI0OTkpIj4KICAgICAgIDxkZWZzPgogICAgICAgIDxwYXRoIGlkPSJTVElYVHdvVGV4dC03ODYiIGQ9Ik0gMTU4MSAtNzAgClEgMTE5NyAtNzAgOTI4IDk5IApRIDY1OSAyNjkgNDkyIDU2MyAKUSAzMjYgODU4IDI0OSAxMjQyIApRIDE3MyAxNjI2IDE3MyAyMDQ4IApRIDE3MyAyNjU2IDMzNiAzMTIwIApRIDQ5OSAzNTg0IDgxNiAzODQ2IApRIDExMzMgNDEwOSAxNTk0IDQxMDkgClEgMjAxMCA0MTA5IDIzMjMgMzg2MiAKUSAyNjM3IDM2MTYgMjgxNiAzMTUyIApRIDI5OTUgMjY4OCAyOTk1IDIwMjkgClEgMjk5NSAxNjE5IDI5MTUgMTI0MSAKUSAyODM1IDg2NCAyNjY1IDU2OSAKUSAyNDk2IDI3NSAyMjI3IDEwMiAKUSAxOTU4IC03MCAxNTgxIC03MCAKegpNIDE1ODEgMTYwIApRIDE5NTggMTYwIDIxNjYgNjE0IApRIDIzNzQgMTA2OSAyMzc0IDE5OTAgClEgMjM3NCAyOTYzIDIxNzIgMzQyNyAKUSAxOTcxIDM4OTEgMTU3NCAzODkxIApRIDExOTcgMzg5MSA5OTIgMzQzMCAKUSA3ODcgMjk3MCA3ODcgMjAxNiAKUSA3ODcgMTA4OCA5OTIgNjI0IApRIDExOTcgMTYwIDE1ODEgMTYwIAp6CiIgdHJhbnNmb3JtPSJzY2FsZSgwLjAxNTYyNSkiLz4KICAgICAgIDwvZGVmcz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4YSIvPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtNzhhIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0OS41IDApIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03ODYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk5IDApIi8+CiAgICAgIDwvZz4KICAgICA8L2c+CiAgICA8L2c+CiAgICA8ZyBpZD0ieHRpY2tfNSI+CiAgICAgPGcgaWQ9ImxpbmUyZF81Ij4KICAgICAgPGc+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNtMDZjN2JmMDVjMSIgeD0iNjYxLjExMjI5MyIgeT0iNTQ3LjAwOTc2IiBzdHlsZT0ic3Ryb2tlOiAjMDAwMDAwOyBzdHJva2Utd2lkdGg6IDEuNSIvPgogICAgICA8L2c+CiAgICAgPC9nPgogICAgIDxnIGlkPSJ0ZXh0XzUiPgogICAgICA8IS0tIDQ0MSAtLT4KICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjQyLjU1NzIxOCA1NzcuMDUyMTQpIHNjYWxlKDAuMjQ5OSAtMC4yNDk5KSI+CiAgICAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBpZD0iU1RJWFR3b1RleHQtNzg3IiBkPSJNIDI3MjYgMCAKTCA1MTIgMCAKTCA1MTIgMTc5IApRIDk2NiAxNzkgMTE1MiAyNzUgClEgMTMzOCAzNzEgMTMzOCA2MDggCkwgMTMzOCAzMzE1IApRIDEzMzggMzQ4MiAxMjkzIDM1NTUgClEgMTI0OCAzNjI5IDExMjYgMzYyOSAKUSAxMDYyIDM2MjkgOTQ3IDM2MTYgClEgODMyIDM2MDMgNzA0IDM1ODAgClEgNTc2IDM1NTggNDc0IDM1MjYgCkwgNDc0IDM3MzggCkwgMTcxNSA0MDkwIApMIDE5MDEgNDA5MCAKTCAxOTAxIDYwOCAKUSAxOTAxIDM3MSAyMDkzIDI3NSAKUSAyMjg1IDE3OSAyNzI2IDE3OSAKTCAyNzI2IDAgCnoKIiB0cmFuc2Zvcm09InNjYWxlKDAuMDE1NjI1KSIvPgogICAgICAgPC9kZWZzPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtNzhhIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03OGEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ5LjUgMCkiLz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4NyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOTkgMCkiLz4KICAgICAgPC9nPgogICAgIDwvZz4KICAgIDwvZz4KICAgIDxnIGlkPSJ4dGlja182Ij4KICAgICA8ZyBpZD0ibGluZTJkXzYiPgogICAgICA8Zz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI20wNmM3YmYwNWMxIiB4PSI3OTUuNzUxMzc3IiB5PSI1NDcuMDA5NzYiIHN0eWxlPSJzdHJva2U6ICMwMDAwMDA7IHN0cm9rZS13aWR0aDogMS41Ii8+CiAgICAgIDwvZz4KICAgICA8L2c+CiAgICAgPGcgaWQ9InRleHRfNiI+CiAgICAgIDwhLS0gNDQyIC0tPgogICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3NzcuMTk2MzAyIDU3Ny4wNTIxNCkgc2NhbGUoMC4yNDk5IC0wLjI0OTkpIj4KICAgICAgIDxkZWZzPgogICAgICAgIDxwYXRoIGlkPSJTVElYVHdvVGV4dC03ODgiIGQ9Ik0gMjc2NSAwIApMIDI0MyAwIApMIDI0MyAyMTggCkwgMTIxNiAxMTkwIApRIDE1MzYgMTUxNyAxNzQ3IDE3ODIgClEgMTk1OCAyMDQ4IDIwNjQgMjMxNyAKUSAyMTcwIDI1ODYgMjE3MCAyOTE4IApRIDIxNzAgMzI3NyAxOTU1IDM0OTEgClEgMTc0MSAzNzA2IDEzNzAgMzcwNiAKUSAxMDU2IDM3MDYgODM1IDM1NzEgClEgNjE0IDM0MzcgNDM1IDMwNzggCkwgMjgyIDMxNDIgClEgNDI5IDM2MTAgNzQ5IDM4NjYgClEgMTA2OSA0MTIyIDE1MzYgNDEyMiAKUSAxOTAxIDQxMjIgMjE3NiAzOTg0IApRIDI0NTEgMzg0NiAyNjA4IDM2MDAgClEgMjc2NSAzMzU0IDI3NjUgMzAxNCAKUSAyNzY1IDI3MzMgMjY0NiAyNDczIApRIDI1MjggMjIxNCAyMjk0IDE5MzkgClEgMjA2MSAxNjY0IDE3MjIgMTMxOCAKTCA4NzcgNTE4IApMIDg3NyA0ODYgCkwgMTMyNSA1MDYgCkwgMjIxNCA1MDYgClEgMjQ3MCA1MDYgMjU3MiA2MjEgClEgMjY3NSA3MzYgMjc4NCAxMDI0IApMIDI5NzAgMTAyNCAKTCAyNzY1IDAgCnoKIiB0cmFuc2Zvcm09InNjYWxlKDAuMDE1NjI1KSIvPgogICAgICAgPC9kZWZzPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtNzhhIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03OGEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ5LjUgMCkiLz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4OCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOTkgMCkiLz4KICAgICAgPC9nPgogICAgIDwvZz4KICAgIDwvZz4KICAgIDxnIGlkPSJ4dGlja183Ij4KICAgICA8ZyBpZD0ibGluZTJkXzciPgogICAgICA8Zz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI20wNmM3YmYwNWMxIiB4PSI5MzAuMzkwNDYyIiB5PSI1NDcuMDA5NzYiIHN0eWxlPSJzdHJva2U6ICMwMDAwMDA7IHN0cm9rZS13aWR0aDogMS41Ii8+CiAgICAgIDwvZz4KICAgICA8L2c+CiAgICAgPGcgaWQ9InRleHRfNyI+CiAgICAgIDwhLS0gNDQzIC0tPgogICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5MTEuODM1Mzg3IDU3Ny4wNTIxNCkgc2NhbGUoMC4yNDk5IC0wLjI0OTkpIj4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4YSIvPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtNzhhIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0OS41IDApIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03ODkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk5IDApIi8+CiAgICAgIDwvZz4KICAgICA8L2c+CiAgICA8L2c+CiAgICA8ZyBpZD0idGV4dF84Ij4KICAgICA8IS0tIGZ1ZWwgJGYkIC0tPgogICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUxNi4wMjAxIDYwOS44NTk3Nikgc2NhbGUoMC4zIC0wLjMpIj4KICAgICAgPGRlZnM+CiAgICAgICA8cGF0aCBpZD0iU1RJWFR3b1RleHQtMTA0IiBkPSJNIDE4MzcgMCAKTCAxMTUgMCAKTCAxMTUgMTg2IApRIDM1MiAxODYgNDY0IDIyNyAKUSA1NzYgMjY5IDYxNCAzOTAgClEgNjUzIDUxMiA2NTMgNzYyIApMIDY1MyAyNzk3IApRIDY1MyAzMTYyIDY2OSAzMzk1IApRIDY4NSAzNjI5IDcyOSAzNzg5IApRIDc3NCAzOTQ5IDg1OCA0MDk2IApRIDk4NiA0MzIwIDExODEgNDQ0MSAKUSAxMzc2IDQ1NjMgMTcwOSA0NTYzIApRIDE5MjAgNDU2MyAyMDgwIDQ1MTIgClEgMjI0MCA0NDYxIDIzMzMgNDM2MSAKUSAyNDI2IDQyNjIgMjQyNiA0MTE1IApRIDI0MjYgMzk3NCAyMzQ5IDM5MDcgClEgMjI3MiAzODQwIDIxNjMgMzg0MCAKUSAyMDQyIDM4NDAgMTk2NSAzOTIwIApRIDE4ODggNDAwMCAxODE4IDQwOTAgClEgMTc1NCA0MTc5IDE2ODAgNDI1MiAKUSAxNjA2IDQzMjYgMTQ5MSA0MzI2IApRIDEzMTIgNDMyNiAxMjQ4IDQxNjMgClEgMTE4NCA0MDAwIDExODQgMzU5NyAKTCAxMTg0IDc2MiAKUSAxMTg0IDUxMiAxMjM1IDM5MCAKUSAxMjg2IDI2OSAxNDI3IDIyNyAKUSAxNTY4IDE4NiAxODM3IDE4NiAKTCAxODM3IDAgCnoKTSAxOTY1IDI3MjYgCkwgMTY2IDI3MjYgCkwgMTY2IDI5OTUgCkwgMTk2NSAyOTk1IApMIDE5NjUgMjcyNiAKegoiIHRyYW5zZm9ybT0ic2NhbGUoMC4wMTU2MjUpIi8+CiAgICAgICA8cGF0aCBpZD0iU1RJWFR3b1RleHQtMTE0IiBkPSJNIDE0MjEgLTY0IApRIDEwMjQgLTY0IDgwMyAxOTUgClEgNTgyIDQ1NCA1ODIgMTEwNyAKTCA1ODIgMjQwNiAKUSA1ODIgMjU3OSA1NDcgMjY1OSAKUSA1MTIgMjczOSA0MTYgMjc2MSAKUSAzMjAgMjc4NCAxNDcgMjc4NCAKTCAxNDcgMjk2MyAKTCA5NzMgMzA1OSAKTCAxMTE0IDMwNTkgCkwgMTExNCAxMTkwIApRIDExMTQgODY0IDExODcgNjgxIApRIDEyNjEgNDk5IDEzOTIgNDIyIApRIDE1MjMgMzQ2IDE2OTAgMzQ2IApRIDE5MzMgMzQ2IDIxMDkgNDU0IApRIDIyODUgNTYzIDI0NzcgNzMwIApMIDI0NzcgMjQxMyAKUSAyNDc3IDI1ODYgMjQzMiAyNjYyIApRIDIzODcgMjczOSAyMjc1IDI3NjEgClEgMjE2MyAyNzg0IDE5NTggMjc4NCAKTCAxOTU4IDI5NjMgCkwgMjg1NCAzMDU5IApMIDMwMDggMzA1OSAKTCAzMDA4IDcxMCAKUSAzMDA4IDQyOSAzMDg1IDM1OCAKUSAzMTYyIDI4OCAzMzkyIDI4OCAKTCAzNDU2IDI4OCAKTCAzNDU2IDExNSAKTCAyNjQzIC0zMiAKTCAyNTAyIC0zMiAKTCAyNTAyIDQ2MSAKTCAyNDcwIDQ2MSAKUSAyMzA0IDI5NCAyMTQxIDE3NiAKUSAxOTc4IDU4IDE4MDIgLTMgClEgMTYyNiAtNjQgMTQyMSAtNjQgCnoKIiB0cmFuc2Zvcm09InNjYWxlKDAuMDE1NjI1KSIvPgogICAgICAgPHBhdGggaWQ9IlNUSVhUd29UZXh0LTEwMyIgZD0iTSAxNTgxIC02NCAKUSAxMTk3IC02NCA4ODYgMTE4IApRIDU3NiAzMDEgMzk3IDY1NiAKUSAyMTggMTAxMSAyMTggMTUyMyAKUSAyMTggMjA2MSA0MDAgMjQwOSAKUSA1ODIgMjc1OCA4ODkgMjkzMSAKUSAxMTk3IDMxMDQgMTU2OCAzMTA0IApRIDIwOTMgMzEwNCAyNDEzIDI3MzkgClEgMjczMyAyMzc0IDI3NTggMTcwMiAKTCA2NzggMTcwMiAKTCA2NzIgMTkzOSAKTCAyMTU3IDE5MzkgClEgMjE1MCAyMTc2IDIwNzMgMjM4NCAKUSAxOTk3IDI1OTIgMTg0OSAyNzIwIApRIDE3MDIgMjg0OCAxNDcyIDI4NDggClEgMTEwMSAyODQ4IDkxNSAyNTU3IApRIDczMCAyMjY2IDczMCAxNzM0IApRIDczMCAxMjkzIDg3MCA5OTggClEgMTAxMSA3MDQgMTI0MSA1NjAgClEgMTQ3MiA0MTYgMTczNCA0MTYgClEgMTk5NyA0MTYgMjE2MCA0ODYgClEgMjMyMyA1NTcgMjQzOCA2NjkgClEgMjU1NCA3ODEgMjY1NiA5MTUgCkwgMjc3OCA4MjYgClEgMjY5NCA2NDYgMjU4NSA0ODMgClEgMjQ3NyAzMjAgMjMzOSAxOTggClEgMjIwMiA3NyAyMDE2IDYgClEgMTgzMCAtNjQgMTU4MSAtNjQgCnoKIiB0cmFuc2Zvcm09InNjYWxlKDAuMDE1NjI1KSIvPgogICAgICAgPHBhdGggaWQ9IlNUSVhUd29UZXh0LTEwYiIgZD0iTSAxNjY0IDAgCkwgMTkyIDAgCkwgMTkyIDE4NiAKUSA0MDMgMTg2IDQ5OSAyMjcgClEgNTk1IDI2OSA2MTcgMzY4IApRIDY0MCA0NjcgNjQwIDY0NiAKTCA2NDAgMzg1OSAKUSA2NDAgNDA1OCA1NjYgNDA5NiAKUSA0OTMgNDEzNCAzNzEgNDEzNCAKUSAyODggNDEzNCAyMjcgNDEyOCAKUSAxNjYgNDEyMiAxNjYgNDEyMiAKTCAxNjYgNDI5NCAKTCAxMDExIDQ1MTggCkwgMTE3MSA0NTE4IApMIDExNzEgNjQ2IApRIDExNzEgNDYxIDEyMDAgMzYxIApRIDEyMjkgMjYyIDEzMzEgMjI0IApRIDE0MzQgMTg2IDE2NjQgMTg2IApMIDE2NjQgMCAKegoiIHRyYW5zZm9ybT0ic2NhbGUoMC4wMTU2MjUpIi8+CiAgICAgICA8cGF0aCBpZD0iU1RJWFR3b1RleHQtMSIgdHJhbnNmb3JtPSJzY2FsZSgwLjAxNTYyNSkiLz4KICAgICAgIDxwYXRoIGlkPSJDbW1pMTAtNTciIGQ9Ik0gNjIyIC0xMDU2IApRIDc0MSAtMTE0NyA5MDkgLTExNDcgClEgMTEzOCAtMTE0NyAxMjgxIC02NDEgClEgMTM0MSAtMzk3IDE2MDYgOTY2IApMIDE5MDAgMjUzNCAKTCAxMzUwIDI1MzQgClEgMTI4OCAyNTM0IDEyODggMjYxOSAKUSAxMzEzIDI3NTkgMTM2OSAyNzU5IApMIDE5NDEgMjc1OSAKTCAyMDE2IDMxNzUgClEgMjA1MyAzMzY5IDIwODQgMzUwOCAKUSAyMTE2IDM2NDcgMjE1MiAzNzY1IApRIDIxODggMzg4NCAyMjU5IDQwMzEgClEgMjM2OSA0MjQxIDI1NTUgNDM3NyAKUSAyNzQxIDQ1MTMgMjk1NiA0NTEzIApRIDMwOTcgNDUxMyAzMjMwIDQ0NjEgClEgMzM2MyA0NDA5IDM0NDcgNDMwNiAKUSAzNTMxIDQyMDMgMzUzMSA0MDYzIApRIDM1MzEgMzkwMCAzNDIzIDM3NzkgClEgMzMxNiAzNjU5IDMxNjMgMzY1OSAKUSAzMDU5IDM2NTkgMjk4NiAzNzIzIApRIDI5MTMgMzc4OCAyOTEzIDM4OTEgClEgMjkxMyA0MDMxIDMwMDggNDEzNiAKUSAzMTAzIDQyNDEgMzI0NCA0MjU2IApRIDMxMjUgNDM0NyAyOTUwIDQzNDcgClEgMjg1MyA0MzQ3IDI3NjcgNDI1NiAKUSAyNjgxIDQxNjYgMjY1NiA0MDYzIApRIDI2MTYgMzkwMCAyNDc4IDMxODEgCkwgMjQwMCAyNzU5IApMIDMwNTkgMjc1OSAKUSAzMTIyIDI3NTkgMzEyMiAyNjc1IApRIDMxMTkgMjY1OSAzMTA5IDI2MjAgClEgMzEwMCAyNTgxIDMwODMgMjU1NyAKUSAzMDY2IDI1MzQgMzA0MSAyNTM0IApMIDIzNTYgMjUzNCAKTCAyMDU5IDk3MiAKUSAyMDAzIDYzMSAxOTI5IDI3OSAKUSAxODU2IC03MiAxNzIzIC00NDIgClEgMTU5MSAtODEzIDEzODQgLTEwNjMgClEgMTE3OCAtMTMxMyA4OTcgLTEzMTMgClEgNjgxIC0xMzEzIDUxMSAtMTE4OSAKUSAzNDEgLTEwNjYgMzQxIC04NjMgClEgMzQxIC03MDAgNDQ1IC01NzkgClEgNTUwIC00NTkgNzA5IC00NTkgClEgODE2IC00NTkgODg3IC01MjMgClEgOTU5IC01ODggOTU5IC02OTEgClEgOTU5IC04MjggODU3IC05NDIgClEgNzU2IC0xMDU2IDYyMiAtMTA1NiAKegoiIHRyYW5zZm9ybT0ic2NhbGUoMC4wMTU2MjUpIi8+CiAgICAgIDwvZGVmcz4KICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtMTA0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuNzAzMTI1KSIvPgogICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMwLjY5OTk2NiAwLjcwMzEyNSkiLz4KICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtMTAzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4Ny42OTk5MDUgMC43MDMxMjUpIi8+CiAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEwYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM0LjA5OTg2OSAwLjcwMzEyNSkiLz4KICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTYyLjM5OTg0MSAwLjcwMzEyNSkiLz4KICAgICAgPHVzZSB4bGluazpocmVmPSIjQ21taTEwLTU3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxODUuODk5ODI2IDAuNzAzMTI1KSIvPgogICAgIDwvZz4KICAgIDwvZz4KICAgPC9nPgogICA8ZyBpZD0ibWF0cGxvdGxpYi5heGlzXzIiPgogICAgPGcgaWQ9Inl0aWNrXzEiPgogICAgIDxnIGlkPSJsaW5lMmRfOCI+CiAgICAgIDxkZWZzPgogICAgICAgPHBhdGggaWQ9Im1lZWE1MTYyZTE4IiBkPSJNIDAgMCAKTCAtNy41IDAgCiIgc3R5bGU9InN0cm9rZTogIzAwMDAwMDsgc3Ryb2tlLXdpZHRoOiAxLjUiLz4KICAgICAgPC9kZWZzPgogICAgICA8Zz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI21lZWE1MTYyZTE4IiB4PSIxMDUuNTQwNDQiIHk9IjU0MC4yNDI5MTIiIHN0eWxlPSJzdHJva2U6ICMwMDAwMDA7IHN0cm9rZS13aWR0aDogMS41Ii8+CiAgICAgIDwvZz4KICAgICA8L2c+CiAgICAgPGcgaWQ9InRleHRfOSI+CiAgICAgIDwhLS0gMjgyMCAtLT4KICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDUuMDYwMjQgNTQ5Ljc2NDEwMikgc2NhbGUoMC4yNDk5IC0wLjI0OTkpIj4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4OCIvPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtNzhlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0OS41IDApIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03ODgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk5IDApIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03ODYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41IDApIi8+CiAgICAgIDwvZz4KICAgICA8L2c+CiAgICA8L2c+CiAgICA8ZyBpZD0ieXRpY2tfMiI+CiAgICAgPGcgaWQ9ImxpbmUyZF85Ij4KICAgICAgPGc+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNtZWVhNTE2MmUxOCIgeD0iMTA1LjU0MDQ0IiB5PSI0MzAuMzg1MzAyIiBzdHlsZT0ic3Ryb2tlOiAjMDAwMDAwOyBzdHJva2Utd2lkdGg6IDEuNSIvPgogICAgICA8L2c+CiAgICAgPC9nPgogICAgIDxnIGlkPSJ0ZXh0XzEwIj4KICAgICAgPCEtLSAyODQwIC0tPgogICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NS4wNjAyNCA0MzkuOTA2NDkyKSBzY2FsZSgwLjI0OTkgLTAuMjQ5OSkiPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtNzg4Ii8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03OGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ5LjUgMCkiLz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4YSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOTkgMCkiLz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4NiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTQ4LjUgMCkiLz4KICAgICAgPC9nPgogICAgIDwvZz4KICAgIDwvZz4KICAgIDxnIGlkPSJ5dGlja18zIj4KICAgICA8ZyBpZD0ibGluZTJkXzEwIj4KICAgICAgPGc+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNtZWVhNTE2MmUxOCIgeD0iMTA1LjU0MDQ0IiB5PSIzMjAuNTI3NjkyIiBzdHlsZT0ic3Ryb2tlOiAjMDAwMDAwOyBzdHJva2Utd2lkdGg6IDEuNSIvPgogICAgICA8L2c+CiAgICAgPC9nPgogICAgIDxnIGlkPSJ0ZXh0XzExIj4KICAgICAgPCEtLSAyODYwIC0tPgogICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NS4wNjAyNCAzMzAuMDQ4ODgyKSBzY2FsZSgwLjI0OTkgLTAuMjQ5OSkiPgogICAgICAgPGRlZnM+CiAgICAgICAgPHBhdGggaWQ9IlNUSVhUd29UZXh0LTc4YyIgZD0iTSAxNjU4IC03NyAKUSAxMTg0IC03NyA4ODAgMTU2IApRIDU3NiAzOTAgNDMyIDc4NCAKUSAyODggMTE3OCAyODggMTY0NSAKUSAyODggMjIyMSA0NjQgMjY3NSAKUSA2NDAgMzEzMCA5NTcgMzQ0NiAKUSAxMjc0IDM3NjMgMTcwNiAzOTM5IApRIDIxMzggNDExNSAyNjU2IDQxMzQgCkwgMjY2OSAzOTQ5IApRIDIyMjEgMzg4NSAxODQ5IDM2NjEgClEgMTQ3OCAzNDM3IDEyMjggMzA3OCAKUSA5NzkgMjcyMCA4OTYgMjI1MyAKTCA5NDEgMjI0NiAKUSAxMTM5IDI0MzggMTMzMSAyNTQwIApRIDE1MjMgMjY0MyAxNzczIDI2NDMgClEgMjI5OCAyNjQzIDI2MTEgMjI4NCAKUSAyOTI1IDE5MjYgMjkyNSAxMjk5IApRIDI5MjUgNjQ2IDI1OTUgMjg0IApRIDIyNjYgLTc3IDE2NTggLTc3IAp6Ck0gMTY4MyAxNDcgClEgMjAwMyAxNDcgMjE4NSAzOTMgClEgMjM2OCA2NDAgMjM2OCAxMjQ4IApRIDIzNjggMTY4MyAyMTczIDE5NzcgClEgMTk3OCAyMjcyIDE1ODEgMjI3MiAKUSAxMzk1IDIyNzIgMTIzMiAyMTk4IApRIDEwNjkgMjEyNSA5NjYgMTk1OCAKUSA4NjQgMTc5MiA4NjQgMTUxMCAKUSA4NjQgMTExNCA5NTMgODA2IApRIDEwNDMgNDk5IDEyMjUgMzIzIApRIDE0MDggMTQ3IDE2ODMgMTQ3IAp6CiIgdHJhbnNmb3JtPSJzY2FsZSgwLjAxNTYyNSkiLz4KICAgICAgIDwvZGVmcz4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4OCIvPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtNzhlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0OS41IDApIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03OGMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk5IDApIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03ODYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41IDApIi8+CiAgICAgIDwvZz4KICAgICA8L2c+CiAgICA8L2c+CiAgICA8ZyBpZD0ieXRpY2tfNCI+CiAgICAgPGcgaWQ9ImxpbmUyZF8xMSI+CiAgICAgIDxnPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjbWVlYTUxNjJlMTgiIHg9IjEwNS41NDA0NCIgeT0iMjEwLjY3MDA4MSIgc3R5bGU9InN0cm9rZTogIzAwMDAwMDsgc3Ryb2tlLXdpZHRoOiAxLjUiLz4KICAgICAgPC9nPgogICAgIDwvZz4KICAgICA8ZyBpZD0idGV4dF8xMiI+CiAgICAgIDwhLS0gMjg4MCAtLT4KICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDUuMDYwMjQgMjIwLjE5MTI3MSkgc2NhbGUoMC4yNDk5IC0wLjI0OTkpIj4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4OCIvPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtNzhlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0OS41IDApIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03OGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk5IDApIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03ODYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41IDApIi8+CiAgICAgIDwvZz4KICAgICA8L2c+CiAgICA8L2c+CiAgICA8ZyBpZD0ieXRpY2tfNSI+CiAgICAgPGcgaWQ9ImxpbmUyZF8xMiI+CiAgICAgIDxnPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjbWVlYTUxNjJlMTgiIHg9IjEwNS41NDA0NCIgeT0iMTAwLjgxMjQ3MSIgc3R5bGU9InN0cm9rZTogIzAwMDAwMDsgc3Ryb2tlLXdpZHRoOiAxLjUiLz4KICAgICAgPC9nPgogICAgIDwvZz4KICAgICA8ZyBpZD0idGV4dF8xMyI+CiAgICAgIDwhLS0gMjkwMCAtLT4KICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDUuMDYwMjQgMTEwLjMzMzY2MSkgc2NhbGUoMC4yNDk5IC0wLjI0OTkpIj4KICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTc4OCIvPgogICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtNzhmIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0OS41IDApIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03ODYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk5IDApIi8+CiAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC03ODYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41IDApIi8+CiAgICAgIDwvZz4KICAgICA8L2c+CiAgICA8L2c+CiAgICA8ZyBpZD0idGV4dF8xNCI+CiAgICAgPCEtLSBjb250cm9sIGVuZXJneSAkYyQgLS0+CiAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjUuODYwMjQgMzgyLjIyMDIzOCkgcm90YXRlKC05MCkgc2NhbGUoMC4zIC0wLjMpIj4KICAgICAgPGRlZnM+CiAgICAgICA8cGF0aCBpZD0iU1RJWFR3b1RleHQtMTAxIiBkPSJNIDI2MTEgOTQ3IApMIDI3MzMgODU4IApRIDI2MTEgNjAyIDI0NTQgMzkwIApRIDIyOTggMTc5IDIwNjcgNTcgClEgMTgzNyAtNjQgMTQ5MSAtNjQgClEgMTA5NCAtNjQgODA2IDEyOCAKUSA1MTggMzIwIDM2NCA2NjIgClEgMjExIDEwMDUgMjExIDE0NDYgClEgMjExIDE5NTIgMzgwIDIzMjMgClEgNTUwIDI2OTQgODczIDI4OTkgClEgMTE5NyAzMTA0IDE2NTggMzEwNCAKUSAyMTEyIDMxMDQgMjM3MSAyOTA1IApRIDI2MzAgMjcwNyAyNjMwIDI0MjYgClEgMjYzMCAyMjg1IDI1NjMgMjIxMSAKUSAyNDk2IDIxMzggMjM2MiAyMTM4IApRIDIyMjEgMjEzOCAyMTQ3IDIyMTEgClEgMjA3NCAyMjg1IDIwMjkgMjM5MyAKUSAxOTg0IDI1MDIgMTkzNiAyNjExIApRIDE4ODggMjcyMCAxODAxIDI3OTMgClEgMTcxNSAyODY3IDE1NDkgMjg2NyAKUSAxMTU4IDI4NjcgOTM3IDI1ODIgClEgNzE3IDIyOTggNzE3IDE3NDcgClEgNzE3IDExNjUgOTU3IDc5MCAKUSAxMTk3IDQxNiAxNjkwIDQxNiAKUSAyMDAzIDQxNiAyMTk4IDU0NCAKUSAyMzk0IDY3MiAyNjExIDk0NyAKegoiIHRyYW5zZm9ybT0ic2NhbGUoMC4wMTU2MjUpIi8+CiAgICAgICA8cGF0aCBpZD0iU1RJWFR3b1RleHQtMTBlIiBkPSJNIDE2NTEgLTY0IApRIDk3OSAtNjQgNTk4IDM1NSAKUSAyMTggNzc0IDIxOCAxNTQ5IApRIDIxOCAyMDE2IDM5NyAyMzY1IApRIDU3NiAyNzE0IDg5OSAyOTA5IApRIDEyMjIgMzEwNCAxNjUxIDMxMDQgClEgMjMxMCAzMTA0IDI2OTEgMjY5NCAKUSAzMDcyIDIyODUgMzA3MiAxNTc0IApRIDMwNzIgMTAzNyAyODg5IDY3MiAKUSAyNzA3IDMwNyAyMzg3IDEyMSAKUSAyMDY3IC02NCAxNjUxIC02NCAKegpNIDE2NzcgMTkyIApRIDE5MzkgMTkyIDIxMTggMzEzIApRIDIyOTggNDM1IDIzOTAgNzI5IApRIDI0ODMgMTAyNCAyNDgzIDE1NDIgClEgMjQ4MyAyMTMxIDIyNjggMjQ5NiAKUSAyMDU0IDI4NjEgMTYyNiAyODYxIApRIDEyNjEgMjg2MSAxMDM3IDI1NTMgClEgODEzIDIyNDYgODEzIDE2MzIgClEgODEzIDg3MCAxMDQwIDUyOCAKUSAxMjY3IDE4NiAxNjc3IDE5MiAKegoiIHRyYW5zZm9ybT0ic2NhbGUoMC4wMTU2MjUpIi8+CiAgICAgICA8cGF0aCBpZD0iU1RJWFR3b1RleHQtMTBkIiBkPSJNIDM1NTIgMCAKTCAyMDc0IDAgCkwgMjA3NCAxNzkgClEgMjMwNCAxNzkgMjQwMyAyMjAgClEgMjUwMiAyNjIgMjUyNCAzNjQgClEgMjU0NyA0NjcgMjU0NyA2NDYgCkwgMjU0NyAxODA1IApRIDI1NDcgMjE4OSAyNDYwIDIzODEgClEgMjM3NCAyNTczIDIyNDAgMjYzMyAKUSAyMTA2IDI2OTQgMTk1OCAyNjk0IApRIDE3NzMgMjY5NCAxNjI1IDI2MjAgClEgMTQ3OCAyNTQ3IDEzNjAgMjQ0NCAKUSAxMjQyIDIzNDIgMTEzOSAyMjUzIApMIDEwOTQgMjU2NiAKTCAxMTkwIDI1NjYgClEgMTQ1MyAyNzk3IDE2ODYgMjk1MCAKUSAxOTIwIDMxMDQgMjIyMSAzMTA0IApRIDI2NTYgMzEwNCAyODY3IDI4MDkgClEgMzA3OCAyNTE1IDMwNzggMTk2NSAKTCAzMDc4IDY0NiAKUSAzMDc4IDQ2NyAzMTA3IDM2NCAKUSAzMTM2IDI2MiAzMjM4IDIyMCAKUSAzMzQxIDE3OSAzNTUyIDE3OSAKTCAzNTUyIDAgCnoKTSAxNjcwIDAgCkwgMjA1IDAgCkwgMjA1IDE3OSAKUSA0MjIgMTc5IDUxNSAyMjAgClEgNjA4IDI2MiA2MzAgMzY0IApRIDY1MyA0NjcgNjUzIDY0NiAKTCA2NTMgMjQ0NSAKUSA2NTMgMjYxOCA1ODIgMjY3MiAKUSA1MTIgMjcyNiAzODQgMjcyNiAKUSAzMDEgMjcyNiAyNTYgMjcyMCAKUSAyMTEgMjcxNCAyMTEgMjcxNCAKTCAyMTEgMjg5OSAKTCAxMDI0IDMwODUgCkwgMTE3MSAzMDg1IApMIDExNjUgMjQ5NiAKTCAxMTg0IDIzNjIgCkwgMTE4NCA2NDYgClEgMTE4NCA0NjcgMTIwOSAzNjQgClEgMTIzNSAyNjIgMTMzNyAyMjAgClEgMTQ0MCAxNzkgMTY3MCAxNzkgCkwgMTY3MCAwIAp6CiIgdHJhbnNmb3JtPSJzY2FsZSgwLjAxNTYyNSkiLz4KICAgICAgIDxwYXRoIGlkPSJTVElYVHdvVGV4dC0xMTMiIGQ9Ik0gMTg3NSA1NzYgCkwgMTk5NyA0NzQgClEgMTg3NSAzMDEgMTc2OSAxODIgClEgMTY2NCA2NCAxNTM2IDAgClEgMTQwOCAtNjQgMTIwMyAtNjQgClEgODgzIC02NCA3MzYgMTI1IApRIDU4OSAzMTQgNTg5IDc0MiAKTCA1ODkgMjcyNiAKTCAyMzcgMjcyNiAKTCAyMzcgMjg3NCAKUSA0NjEgMzAxNCA2MjQgMzI1NCAKUSA3ODcgMzQ5NCA5NjAgMzkwNCAKTCAxMTIwIDM5MDQgCkwgMTEyMCAyOTk1IApMIDE4NDMgMjk5NSAKTCAxODQzIDI3MjYgCkwgMTEyMCAyNzI2IApMIDExMjAgOTIyIApRIDExMjAgNTgyIDExODEgNDQ4IApRIDEyNDIgMzE0IDE0MjcgMzE0IApRIDE1ODEgMzE0IDE2NjcgMzc4IApRIDE3NTQgNDQyIDE4NzUgNTc2IAp6CiIgdHJhbnNmb3JtPSJzY2FsZSgwLjAxNTYyNSkiLz4KICAgICAgIDxwYXRoIGlkPSJTVElYVHdvVGV4dC0xMTEiIGQ9Ik0gMTc4NiAwIApMIDE4NiAwIApMIDE4NiAxODYgClEgMzk3IDE4NiA0OTYgMjIxIApRIDU5NSAyNTYgNjI0IDM0OSAKUSA2NTMgNDQyIDY1MyA2MjEgCkwgNjUzIDIzODEgClEgNjUzIDI1NTQgNjI0IDI2NDAgClEgNTk1IDI3MjYgNDIyIDI3MjYgClEgMzI2IDI3MjYgMjc1IDI3MjAgClEgMjI0IDI3MTQgMjI0IDI3MTQgCkwgMjI0IDI4OTMgCkwgMTAxOCAzMDg1IApMIDExNzEgMzA4NSAKTCAxMTcxIDI0MjYgCkwgMTE5MCAyNDI2IApRIDEzNTcgMjY2MiAxNDg1IDI4MTYgClEgMTYxMyAyOTcwIDE3MzcgMzA0NiAKUSAxODYyIDMxMjMgMjAxNiAzMTIzIApRIDIyMDIgMzEyMyAyMjk0IDMwMjcgClEgMjM4NyAyOTMxIDIzODcgMjc2NSAKUSAyMzg3IDI1ODYgMjMwMCAyNTAyIApRIDIyMTQgMjQxOSAyMTA2IDI0MTkgClEgMjAwMyAyNDE5IDE5MjMgMjQ3MyAKUSAxODQzIDI1MjggMTc4NSAyNTgyIApRIDE3MjggMjYzNyAxNjkwIDI2MzcgClEgMTU4MSAyNjM3IDE0NDAgMjQ3MCAKUSAxMjk5IDIzMDQgMTE4NCAyMTEyIApMIDExODQgNjUzIApRIDExODQgNDU0IDEyMzUgMzUyIApRIDEyODYgMjUwIDE0MTcgMjE4IApRIDE1NDkgMTg2IDE3ODYgMTg2IApMIDE3ODYgMCAKegoiIHRyYW5zZm9ybT0ic2NhbGUoMC4wMTU2MjUpIi8+CiAgICAgICA8cGF0aCBpZD0iU1RJWFR3b1RleHQtMTA1IiBkPSJNIDEyMjIgLTE1MDQgClEgODA2IC0xNTA0IDU2NiAtMTQwMSAKUSAzMjYgLTEyOTkgMjMwIC0xMTM2IApRIDEzNCAtOTczIDEzNCAtODAwIApRIDEzNCAtNjQwIDI2NSAtNDY0IApRIDM5NyAtMjg4IDY1MyAtMzggCkwgNjUzIDMyIApMIDg0NSAtNiAKUSA3MjMgLTIxMSA2NzggLTM0MiAKUSA2MzQgLTQ3NCA2MzQgLTU4MiAKUSA2MzQgLTg1OCA4NzAgLTk5OCAKUSAxMTA3IC0xMTM5IDE1OTQgLTExMzkgClEgMTk3MSAtMTEzOSAyMjA0IC0xMDQzIApRIDI0MzggLTk0NyAyNTQ0IC04MDYgClEgMjY1MCAtNjY2IDI2NTAgLTUzMSAKUSAyNjUwIC0zNTggMjUzOCAtMjY1IApRIDI0MjYgLTE3MyAyMjUzIC0xMzQgClEgMjA4MCAtOTYgMTg4OCAtODYgClEgMTY5NiAtNzcgMTUzNiAtNzcgClEgMTI0OCAtNzAgMTEwMSAtNzAgClEgOTU0IC03MCA4OTAgLTY3IApRIDgyNiAtNjQgNzc0IC02NCAKTCA3MTAgLTMyIApRIDYxNCAwIDUxOCA3MCAKUSA0MjIgMTQxIDM1OCAyNDAgClEgMjk0IDMzOSAyOTQgNDQ4IApRIDI5NCA1NjMgMzYxIDY4OCAKUSA0MjkgODEzIDU1MCA5MzcgClEgNjcyIDEwNjIgODE5IDExNzggCkwgODE5IDEyMzUgCkwgOTg2IDExMTQgClEgOTU0IDEwODIgOTA5IDk5OCAKUSA4NjQgOTE1IDgzMiA4MjIgClEgODAwIDczMCA4MDAgNjY2IApRIDgwMCA1NzAgODY3IDUxNSAKUSA5MzQgNDYxIDEwOTcgNDM1IApRIDEyNjEgNDEwIDE1NTUgNDEwIApRIDE5NTggNDEwIDIyODEgMzcxIApRIDI2MDUgMzMzIDI3OTAgMTczIApRIDI5NzYgMTMgMjk3NiAtMzUyIApRIDI5NzYgLTY3MiAyODE5IC04OTMgClEgMjY2MiAtMTExNCAyNDAzIC0xMjQ4IApRIDIxNDQgLTEzODIgMTgzMyAtMTQ0MyAKUSAxNTIzIC0xNTA0IDEyMjIgLTE1MDQgCnoKTSAxNTE3IDk5OCAKUSAxMzUwIDk5OCAxMjA2IDEwMzAgClEgMTA2MiAxMDYyIDkyOCAxMTA3IApMIDg1OCAxMTcxIApRIDY5MSAxMjYxIDU3MiAxMzgyIApRIDQ1NCAxNTA0IDM5MCAxNjczIApRIDMyNiAxODQzIDMyNiAyMDYxIApRIDMyNiAyMzgxIDQ3MyAyNjE0IApRIDYyMSAyODQ4IDg4MyAyOTc2IApRIDExNDYgMzEwNCAxNDg1IDMxMDQgClEgMTY3NyAzMTA0IDE4NDYgMzA2OSAKUSAyMDE2IDMwMzQgMjE2MyAyOTYzIApRIDIzMTAgMjg5MyAyNDE5IDI3OTcgCkwgMjQxOSAyNjMwIApRIDI0OTAgMjUzNCAyNTcwIDIzNzQgClEgMjY1MCAyMjE0IDI2NTAgMTk3MSAKUSAyNjUwIDE2NzcgMjUwNiAxNDU2IApRIDIzNjIgMTIzNSAyMTA5IDExMTYgClEgMTg1NiA5OTggMTUxNyA5OTggCnoKTSAxNTIzIDEyMjIgClEgMTc2NiAxMjIyIDE5MjMgMTM4OCAKUSAyMDgwIDE1NTUgMjA4MCAyMDEwIApRIDIwODAgMjQwMCAxOTEzIDI2MzcgClEgMTc0NyAyODc0IDE0NDAgMjg3NCAKUSAxMTkwIDI4NzQgMTA0MCAyNjgyIApRIDg5MCAyNDkwIDg5MCAyMDg2IApRIDg5MCAxNjc3IDEwNTAgMTQ0OSAKUSAxMjEwIDEyMjIgMTUyMyAxMjIyIAp6Ck0gMzAyMSAyOTg5IApMIDMwMjEgMjY0MyAKTCAyMzMwIDI2NjIgCkwgMjEwNiAyOTM4IApMIDMwMjEgMjk4OSAKegoiIHRyYW5zZm9ybT0ic2NhbGUoMC4wMTU2MjUpIi8+CiAgICAgICA8cGF0aCBpZD0iU1RJWFR3b1RleHQtMTE4IiBkPSJNIDQ5MyAtMTUwNCAKUSAyOTQgLTE1MDQgMTY2IC0xNDI3IApRIDM4IC0xMzUwIDM4IC0xMTcxIApRIDM4IC0xMDI0IDEyNCAtOTYwIApRIDIxMSAtODk2IDMzMyAtODk2IApRIDQ5OSAtODk2IDYzMCAtOTY2IApRIDc2MiAtMTAzNyA4MjYgLTEwMzcgClEgOTE1IC0xMDM3IDEwMTcgLTg5OSAKUSAxMTIwIC03NjIgMTIxOSAtNTcwIApRIDEzMTggLTM3OCAxMzc5IC0yMDggClEgMTQ0MCAtMzggMTQ0MCAzMiAKUSAxNDQwIDk2IDEzNzMgMjYyIApRIDEzMDYgNDI5IDEyNDggNTU3IApMIDMwNyAyNjExIApRIDI2MiAyNzIwIDE3OSAyNzgxIApRIDk2IDI4NDIgLTc3IDI4NDIgCkwgLTc3IDMwMjcgCkwgMTI5MyAzMDI3IApMIDEyOTMgMjgzNSAKUSAxMDc1IDI4MzUgMTAwMSAyNzkzIApRIDkyOCAyNzUyIDkyOCAyNjY5IApRIDkyOCAyNjA1IDk2MCAyNTMxIApRIDk5MiAyNDU4IDEwMTggMjM4NyAKTCAxNjQ1IDk3OSAKTCAxNzI4IDY2NiAKTCAxNzczIDY2NiAKTCAyMzk0IDI1MjIgClEgMjQwNiAyNTU0IDI0MTYgMjYwMiAKUSAyNDI2IDI2NTAgMjQyNiAyNjgyIApRIDI0MjYgMjc3OCAyMzI2IDI4MTAgClEgMjIyNyAyODQyIDIwNjcgMjg0MiAKTCAyMDY3IDMwMjcgCkwgMzE1NSAzMDI3IApMIDMxNTUgMjg0MiAKUSAyOTYzIDI4NDIgMjg3MyAyNzU1IApRIDI3ODQgMjY2OSAyNzE0IDI0ODMgCkwgMTcxNSAtMTQxIApRIDE1MzAgLTYyNyAxMzU0IC05MjggClEgMTE3OCAtMTIyOSA5NzMgLTEzNjYgClEgNzY4IC0xNTA0IDQ5MyAtMTUwNCAKegoiIHRyYW5zZm9ybT0ic2NhbGUoMC4wMTU2MjUpIi8+CiAgICAgICA8cGF0aCBpZD0iQ21taTEwLTdmIiBkPSJNIDc1MCA3NjMgClEgNzUwIDQ4NCA4OTIgMjkwIApRIDEwMzQgOTcgMTMwMCA5NyAKUSAxNjgxIDk3IDIwMzIgMjcyIApRIDIzODQgNDQ3IDI2MDYgNzU2IApRIDI2MjUgNzc1IDI2NTYgNzc1IApRIDI2ODggNzc1IDI3MjAgNzM5IApRIDI3NTMgNzAzIDI3NTMgNjcyIApRIDI3NTMgNjQ3IDI3NDEgNjM0IApRIDI1MDYgMzA2IDIxMDkgMTE3IApRIDE3MTMgLTcyIDEyODggLTcyIApRIDk4MSAtNzIgNzQ3IDczIApRIDUxMyAyMTkgMzg0IDQ2MiAKUSAyNTYgNzA2IDI1NiAxMDEzIApRIDI1NiAxNDQ0IDQ5NyAxODY5IApRIDczOCAyMjk0IDExMzggMjU2MSAKUSAxNTM4IDI4MjggMTk3OCAyODI4IApRIDIyNjYgMjgyOCAyNDk1IDI2ODkgClEgMjcyNSAyNTUwIDI3MjUgMjI3OCAKUSAyNzI1IDIxMDMgMjYyMyAxOTc5IApRIDI1MjIgMTg1NiAyMzUwIDE4NTYgClEgMjI0NyAxODU2IDIxNzYgMTkyMCAKUSAyMTA2IDE5ODQgMjEwNiAyMDg4IApRIDIxMDYgMjIzOCAyMjE1IDIzNDQgClEgMjMyNSAyNDUwIDI0NzIgMjQ1MCAKTCAyNDg0IDI0NTAgClEgMjQwOSAyNTU5IDIyNjcgMjYxMSAKUSAyMTI1IDI2NjMgMTk3MiAyNjYzIApRIDE1OTcgMjY2MyAxMzE1IDIzNDIgClEgMTAzNCAyMDIyIDg5MiAxNTc2IApRIDc1MCAxMTMxIDc1MCA3NjMgCnoKIiB0cmFuc2Zvcm09InNjYWxlKDAuMDE1NjI1KSIvPgogICAgICA8L2RlZnM+CiAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEwMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAwLjQwNjI1KSIvPgogICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ0LjU5OTk2IDAuNDA2MjUpIi8+CiAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEwZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOTUuOTk5OTA4IDAuNDA2MjUpIi8+CiAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTExMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTUzLjU5OTg1NCAwLjQwNjI1KSIvPgogICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE4NS4wOTk4MjMgMC40MDYyNSkiLz4KICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtMTBlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMjMuMDk5NzkyIDAuNDA2MjUpIi8+CiAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEwYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjc0LjQ5OTc0MSAwLjQwNjI1KSIvPgogICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMDIuNzk5NzEzIDAuNDA2MjUpIi8+CiAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEwMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzI2LjI5OTY5OCAwLjQwNjI1KSIvPgogICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM3Mi42OTk2NjEgMC40MDYyNSkiLz4KICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtMTAzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MzAuMjk5NjA2IDAuNDA2MjUpIi8+CiAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTExMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDc2LjY5OTU3IDAuNDA2MjUpIi8+CiAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEwNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTE0LjY5OTUzOSAwLjQwNjI1KSIvPgogICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMTgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU2My4wOTk0ODcgMC40MDYyNSkiLz4KICAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjExLjM5OTQ0NSAwLjQwNjI1KSIvPgogICAgICA8dXNlIHhsaW5rOmhyZWY9IiNDbW1pMTAtN2YiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYzNC44OTk0MjkgMC40MDYyNSkiLz4KICAgICA8L2c+CiAgICA8L2c+CiAgIDwvZz4KICAgPGcgaWQ9ImxpbmUyZF8xMyI+CiAgICA8cGF0aCBkPSJNIDk1Ni40Nzg4ODIgNTIyLjc2OTgwMyAKTCA4ODEuMTQ3NzY4IDUyMS4yODc5MDMgCkwgODA1Ljk0MDgyNiA1MTYuNjAxNTk5IApMIDczMC44OTg0ODQgNTA4LjI1MTE4NSAKTCA2NTUuMTY2OTk1IDQ5NS41MjU1NzMgCkwgNTgzLjIxMDQ4NyA0NzguNzA1NTczIApMIDUxNS45NzgzMjUgNDU3LjU0Mzg3MiAKTCA0NDguMTI0MjY3IDQyOS42NDk2NDMgCkwgMzg0LjQyNTc1NSAzOTYuMDE3NjQxIApMIDMyOS4wNTE0ODMgMzU4LjQ4NDI2NCAKTCAyNzcuNTA1MjY0IDMxMy40Mzg2NDEgCkwgMjMyLjE2OTcwOSAyNjEuODk5MDE4IApMIDE5OS4wNjM0ODkgMjExLjUyNTIzMSAKTCAxNzUuMDAzNzM0IDE1OS41MDA3NjggCkwgMTU0LjE1NTE5OCA5MC4wNDk2NDUgCkwgMTQ2LjA3MDIzOCAzOC4wODI2MDUgCkwgMTQ2LjA2MTMxOCAzNy45NzA2NzMgCiIgY2xpcC1wYXRoPSJ1cmwoI3A4YmEzMzk1YWEwKSIgc3R5bGU9ImZpbGw6IG5vbmU7IHN0cm9rZTogIzhiOTU5ZTsgc3Ryb2tlLXdpZHRoOiAzOyBzdHJva2UtbGluZWNhcDogc3F1YXJlIi8+CiAgICA8ZGVmcz4KICAgICA8cGF0aCBpZD0ibTU1ZTQ4Yzk5MDEiIGQ9Ik0gMCA2IApDIDEuNTkxMjE5IDYgMy4xMTc0NzkgNS4zNjc4MDIgNC4yNDI2NDEgNC4yNDI2NDEgCkMgNS4zNjc4MDIgMy4xMTc0NzkgNiAxLjU5MTIxOSA2IDAgCkMgNiAtMS41OTEyMTkgNS4zNjc4MDIgLTMuMTE3NDc5IDQuMjQyNjQxIC00LjI0MjY0MSAKQyAzLjExNzQ3OSAtNS4zNjc4MDIgMS41OTEyMTkgLTYgMCAtNiAKQyAtMS41OTEyMTkgLTYgLTMuMTE3NDc5IC01LjM2NzgwMiAtNC4yNDI2NDEgLTQuMjQyNjQxIApDIC01LjM2NzgwMiAtMy4xMTc0NzkgLTYgLTEuNTkxMjE5IC02IDAgCkMgLTYgMS41OTEyMTkgLTUuMzY3ODAyIDMuMTE3NDc5IC00LjI0MjY0MSA0LjI0MjY0MSAKQyAtMy4xMTc0NzkgNS4zNjc4MDIgLTEuNTkxMjE5IDYgMCA2IAp6CiIgc3R5bGU9InN0cm9rZTogIzhiOTU5ZSIvPgogICAgPC9kZWZzPgogICAgPGcgY2xpcC1wYXRoPSJ1cmwoI3A4YmEzMzk1YWEwKSI+CiAgICAgPHVzZSB4bGluazpocmVmPSIjbTU1ZTQ4Yzk5MDEiIHg9Ijk1Ni40Nzg4ODIiIHk9IjUyMi43Njk4MDMiIHN0eWxlPSJmaWxsOiAjOGI5NTllOyBzdHJva2U6ICM4Yjk1OWUiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNtNTVlNDhjOTkwMSIgeD0iODgxLjE0Nzc2OCIgeT0iNTIxLjI4NzkwMyIgc3R5bGU9ImZpbGw6ICM4Yjk1OWU7IHN0cm9rZTogIzhiOTU5ZSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI201NWU0OGM5OTAxIiB4PSI4MDUuOTQwODI2IiB5PSI1MTYuNjAxNTk5IiBzdHlsZT0iZmlsbDogIzhiOTU5ZTsgc3Ryb2tlOiAjOGI5NTllIi8+CiAgICAgPHVzZSB4bGluazpocmVmPSIjbTU1ZTQ4Yzk5MDEiIHg9IjczMC44OTg0ODQiIHk9IjUwOC4yNTExODUiIHN0eWxlPSJmaWxsOiAjOGI5NTllOyBzdHJva2U6ICM4Yjk1OWUiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNtNTVlNDhjOTkwMSIgeD0iNjU1LjE2Njk5NSIgeT0iNDk1LjUyNTU3MyIgc3R5bGU9ImZpbGw6ICM4Yjk1OWU7IHN0cm9rZTogIzhiOTU5ZSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI201NWU0OGM5OTAxIiB4PSI1ODMuMjEwNDg3IiB5PSI0NzguNzA1NTczIiBzdHlsZT0iZmlsbDogIzhiOTU5ZTsgc3Ryb2tlOiAjOGI5NTllIi8+CiAgICAgPHVzZSB4bGluazpocmVmPSIjbTU1ZTQ4Yzk5MDEiIHg9IjUxNS45NzgzMjUiIHk9IjQ1Ny41NDM4NzIiIHN0eWxlPSJmaWxsOiAjOGI5NTllOyBzdHJva2U6ICM4Yjk1OWUiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNtNTVlNDhjOTkwMSIgeD0iNDQ4LjEyNDI2NyIgeT0iNDI5LjY0OTY0MyIgc3R5bGU9ImZpbGw6ICM4Yjk1OWU7IHN0cm9rZTogIzhiOTU5ZSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI201NWU0OGM5OTAxIiB4PSIzODQuNDI1NzU1IiB5PSIzOTYuMDE3NjQxIiBzdHlsZT0iZmlsbDogIzhiOTU5ZTsgc3Ryb2tlOiAjOGI5NTllIi8+CiAgICAgPHVzZSB4bGluazpocmVmPSIjbTU1ZTQ4Yzk5MDEiIHg9IjMyOS4wNTE0ODMiIHk9IjM1OC40ODQyNjQiIHN0eWxlPSJmaWxsOiAjOGI5NTllOyBzdHJva2U6ICM4Yjk1OWUiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNtNTVlNDhjOTkwMSIgeD0iMjc3LjUwNTI2NCIgeT0iMzEzLjQzODY0MSIgc3R5bGU9ImZpbGw6ICM4Yjk1OWU7IHN0cm9rZTogIzhiOTU5ZSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI201NWU0OGM5OTAxIiB4PSIyMzIuMTY5NzA5IiB5PSIyNjEuODk5MDE4IiBzdHlsZT0iZmlsbDogIzhiOTU5ZTsgc3Ryb2tlOiAjOGI5NTllIi8+CiAgICAgPHVzZSB4bGluazpocmVmPSIjbTU1ZTQ4Yzk5MDEiIHg9IjE5OS4wNjM0ODkiIHk9IjIxMS41MjUyMzEiIHN0eWxlPSJmaWxsOiAjOGI5NTllOyBzdHJva2U6ICM4Yjk1OWUiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNtNTVlNDhjOTkwMSIgeD0iMTc1LjAwMzczNCIgeT0iMTU5LjUwMDc2OCIgc3R5bGU9ImZpbGw6ICM4Yjk1OWU7IHN0cm9rZTogIzhiOTU5ZSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI201NWU0OGM5OTAxIiB4PSIxNTQuMTU1MTk4IiB5PSI5MC4wNDk2NDUiIHN0eWxlPSJmaWxsOiAjOGI5NTllOyBzdHJva2U6ICM4Yjk1OWUiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNtNTVlNDhjOTkwMSIgeD0iMTQ2LjA3MDIzOCIgeT0iMzguMDgyNjA1IiBzdHlsZT0iZmlsbDogIzhiOTU5ZTsgc3Ryb2tlOiAjOGI5NTllIi8+CiAgICAgPHVzZSB4bGluazpocmVmPSIjbTU1ZTQ4Yzk5MDEiIHg9IjE0Ni4wNjEzMTgiIHk9IjM3Ljk3MDY3MyIgc3R5bGU9ImZpbGw6ICM4Yjk1OWU7IHN0cm9rZTogIzhiOTU5ZSIvPgogICAgPC9nPgogICA8L2c+CiAgIDxnIGlkPSJsaW5lMmRfMTQiPgogICAgPHBhdGggZD0iTSAxNDYuMDYxMzE4IDM3Ljk3MDY3MyAKIiBjbGlwLXBhdGg9InVybCgjcDhiYTMzOTVhYTApIiBzdHlsZT0iZmlsbDogbm9uZTsgc3Ryb2tlOiAjZGU2YjEwOyBzdHJva2Utd2lkdGg6IDM7IHN0cm9rZS1saW5lY2FwOiBzcXVhcmUiLz4KICAgIDxkZWZzPgogICAgIDxwYXRoIGlkPSJtYWExMTNlMzczZCIgZD0iTSAwIDYgCkMgMS41OTEyMTkgNiAzLjExNzQ3OSA1LjM2NzgwMiA0LjI0MjY0MSA0LjI0MjY0MSAKQyA1LjM2NzgwMiAzLjExNzQ3OSA2IDEuNTkxMjE5IDYgMCAKQyA2IC0xLjU5MTIxOSA1LjM2NzgwMiAtMy4xMTc0NzkgNC4yNDI2NDEgLTQuMjQyNjQxIApDIDMuMTE3NDc5IC01LjM2NzgwMiAxLjU5MTIxOSAtNiAwIC02IApDIC0xLjU5MTIxOSAtNiAtMy4xMTc0NzkgLTUuMzY3ODAyIC00LjI0MjY0MSAtNC4yNDI2NDEgCkMgLTUuMzY3ODAyIC0zLjExNzQ3OSAtNiAtMS41OTEyMTkgLTYgMCAKQyAtNiAxLjU5MTIxOSAtNS4zNjc4MDIgMy4xMTc0NzkgLTQuMjQyNjQxIDQuMjQyNjQxIApDIC0zLjExNzQ3OSA1LjM2NzgwMiAtMS41OTEyMTkgNiAwIDYgCnoKIiBzdHlsZT0ic3Ryb2tlOiAjZGU2YjEwIi8+CiAgICA8L2RlZnM+CiAgICA8ZyBjbGlwLXBhdGg9InVybCgjcDhiYTMzOTVhYTApIj4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNtYWExMTNlMzczZCIgeD0iMTQ2LjA2MTMxOCIgeT0iMzcuOTcwNjczIiBzdHlsZT0iZmlsbDogI2RlNmIxMDsgc3Ryb2tlOiAjZGU2YjEwIi8+CiAgICA8L2c+CiAgIDwvZz4KICAgPGcgaWQ9ImxpbmUyZF8xNSI+CiAgICA8cGF0aCBkPSJNIDk1Ni40Nzg4ODIgNTIyLjc2OTgwMyAKIiBjbGlwLXBhdGg9InVybCgjcDhiYTMzOTVhYTApIiBzdHlsZT0iZmlsbDogbm9uZTsgc3Ryb2tlOiAjNDI4N2Y0OyBzdHJva2Utd2lkdGg6IDM7IHN0cm9rZS1saW5lY2FwOiBzcXVhcmUiLz4KICAgIDxkZWZzPgogICAgIDxwYXRoIGlkPSJtNjk3N2JkNTJjNyIgZD0iTSAwIDYgCkMgMS41OTEyMTkgNiAzLjExNzQ3OSA1LjM2NzgwMiA0LjI0MjY0MSA0LjI0MjY0MSAKQyA1LjM2NzgwMiAzLjExNzQ3OSA2IDEuNTkxMjE5IDYgMCAKQyA2IC0xLjU5MTIxOSA1LjM2NzgwMiAtMy4xMTc0NzkgNC4yNDI2NDEgLTQuMjQyNjQxIApDIDMuMTE3NDc5IC01LjM2NzgwMiAxLjU5MTIxOSAtNiAwIC02IApDIC0xLjU5MTIxOSAtNiAtMy4xMTc0NzkgLTUuMzY3ODAyIC00LjI0MjY0MSAtNC4yNDI2NDEgCkMgLTUuMzY3ODAyIC0zLjExNzQ3OSAtNiAtMS41OTEyMTkgLTYgMCAKQyAtNiAxLjU5MTIxOSAtNS4zNjc4MDIgMy4xMTc0NzkgLTQuMjQyNjQxIDQuMjQyNjQxIApDIC0zLjExNzQ3OSA1LjM2NzgwMiAtMS41OTEyMTkgNiAwIDYgCnoKIiBzdHlsZT0ic3Ryb2tlOiAjNDI4N2Y0Ii8+CiAgICA8L2RlZnM+CiAgICA8ZyBjbGlwLXBhdGg9InVybCgjcDhiYTMzOTVhYTApIj4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNtNjk3N2JkNTJjNyIgeD0iOTU2LjQ3ODg4MiIgeT0iNTIyLjc2OTgwMyIgc3R5bGU9ImZpbGw6ICM0Mjg3ZjQ7IHN0cm9rZTogIzQyODdmNCIvPgogICAgPC9nPgogICA8L2c+CiAgIDxnIGlkPSJwYXRjaF8zIj4KICAgIDxwYXRoIGQ9Ik0gMTA1LjU0MDQ0IDU0Ny4wMDk3NiAKTCAxMDUuNTQwNDQgMTMuNzMwNzE2IAoiIHN0eWxlPSJmaWxsOiBub25lOyBzdHJva2U6ICMwMDAwMDA7IHN0cm9rZS13aWR0aDogMS41OyBzdHJva2UtbGluZWpvaW46IG1pdGVyOyBzdHJva2UtbGluZWNhcDogc3F1YXJlIi8+CiAgIDwvZz4KICAgPGcgaWQ9InBhdGNoXzQiPgogICAgPHBhdGggZD0iTSAxMDUuNTQwNDQgNTQ3LjAwOTc2IApMIDk5Ni45OTk3NiA1NDcuMDA5NzYgCiIgc3R5bGU9ImZpbGw6IG5vbmU7IHN0cm9rZTogIzAwMDAwMDsgc3Ryb2tlLXdpZHRoOiAxLjU7IHN0cm9rZS1saW5lam9pbjogbWl0ZXI7IHN0cm9rZS1saW5lY2FwOiBzcXVhcmUiLz4KICAgPC9nPgogICA8ZyBpZD0idGV4dF8xNSI+CiAgICA8IS0tIGxlYXN0IGZ1ZWwgLS0+CiAgICA8ZyBzdHlsZT0iZmlsbDogI2RlNmIxMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTQ2LjA2MTMxOCAyNS45NzA2NzMpIHNjYWxlKDAuMyAtMC4zKSI+CiAgICAgPGRlZnM+CiAgICAgIDxwYXRoIGlkPSJTVElYVHdvVGV4dC1mZiIgZD0iTSAxMDA1IC00NSAKUSA2MzQgLTQ1IDQzOCAxNjAgClEgMjQzIDM2NSAyNDMgNjcyIApRIDI0MyA5MjggMzYxIDExMDQgClEgNDgwIDEyODAgNjc1IDE0MDEgClEgODcwIDE1MjMgMTA5NyAxNjA2IApRIDEzMjUgMTY5MCAxNTQyIDE3NDcgClEgMTc2MCAxODA1IDE5MjYgMTg1NiAKTCAxOTI2IDIxMzggClEgMTkyNiAyNTU0IDE3ODIgMjczMCAKUSAxNjM4IDI5MDYgMTM1MCAyOTA2IApRIDEwNzUgMjkwNiA5OTggMjc5MCAKUSA5MjIgMjY3NSA5MjIgMjM4NyAKUSA5MjIgMjI0MCA4NDggMjE2NiAKUSA3NzQgMjA5MyA2NDAgMjA5MyAKUSA1NDQgMjA5MyA0NTcgMjE2NiAKUSAzNzEgMjI0MCAzNzEgMjQwMCAKUSAzNzEgMjU3OSA1MDggMjczOSAKUSA2NDYgMjg5OSA4OTkgMzAwMSAKUSAxMTUyIDMxMDQgMTQ5OCAzMTA0IApRIDIwMjIgMzEwNCAyMjQwIDI4NjEgClEgMjQ1OCAyNjE4IDI0NTggMjExOCAKTCAyNDU4IDY2NiAKUSAyNDU4IDQ2NyAyNTAyIDQwOSAKUSAyNTQ3IDM1MiAyNjUwIDM1MiAKUSAyNzM5IDM1MiAyODEyIDM5NyAKUSAyODg2IDQ0MiAyOTUwIDUxMiAKTCAzMDQ2IDQxMCAKUSAyODg2IDE3OSAyNzQyIDczIApRIDI1OTggLTMyIDIzNTUgLTMyIApRIDIxMzEgLTMyIDIwNjQgOTYgClEgMTk5NyAyMjQgMTk2NSA0NjEgCkwgMTkyNiA1MzggCkwgMTkyNiAxNjQ1IApRIDE2MzggMTU3NCAxMzgyIDE0NzggClEgMTEyNiAxMzgyIDk2NiAxMjI4IApRIDgwNiAxMDc1IDgwNiA4MjYgClEgODA2IDU4OSA5MzQgNDQ4IApRIDEwNjIgMzA3IDEyNjcgMzA3IApRIDE0MzQgMzA3IDE2MTYgMzkwIApRIDE3OTggNDc0IDE5NzEgNjI3IApMIDIwMjIgMzk3IApMIDE5NDYgMzk3IApRIDE3OTggMjY5IDE2NjAgMTY2IApRIDE1MjMgNjQgMTM2NiA5IApRIDEyMTAgLTQ1IDEwMDUgLTQ1IAp6CiIgdHJhbnNmb3JtPSJzY2FsZSgwLjAxNTYyNSkiLz4KICAgICAgPHBhdGggaWQ9IlNUSVhUd29UZXh0LTExMiIgZD0iTSAyNjkgLTUxIApMIDI1MCAxMDUwIApMIDQxNiAxMDUwIApRIDUxOCA1NTcgNzE2IDM2MSAKUSA5MTUgMTY2IDEyNjcgMTY2IApRIDE1MTAgMTY2IDE2NjQgMjY1IApRIDE4MTggMzY1IDE4MTggNTg5IApRIDE4MTggNzQyIDE3NjMgODQ0IApRIDE3MDkgOTQ3IDE1NTUgMTA1MiAKUSAxNDAyIDExNTggMTEwMSAxMzA2IApRIDgwNiAxNDUzIDYyMCAxNTkwIApRIDQzNSAxNzI4IDM0NSAxODk0IApRIDI1NiAyMDYxIDI1NiAyMjk4IApRIDI1NiAyNjk0IDU0MSAyODk5IApRIDgyNiAzMTA0IDEyMzUgMzEwNCAKUSAxNDc4IDMxMDQgMTYzMiAzMDQ5IApRIDE3ODYgMjk5NSAxOTA3IDI5MzggCkwgMTkxNCAyOTM4IApMIDIwMjIgMzA3MiAKTCAyMTUwIDMwNzIgCkwgMjE3MCAyMDkzIApMIDE5OTcgMjA5MyAKUSAxODk0IDI1NDcgMTcwOCAyNzE2IApRIDE1MjMgMjg4NiAxMjI5IDI4ODYgClEgMTAxMSAyODg2IDg2MCAyNzg0IApRIDcxMCAyNjgyIDcxMCAyNDY0IApRIDcxMCAyMjc4IDg4MyAyMTMxIApRIDEwNTYgMTk4NCAxNDU5IDE3NzkgClEgMTc1NCAxNjI2IDE5NTIgMTQ4MiAKUSAyMTUwIDEzMzggMjI1MiAxMTY4IApRIDIzNTUgOTk4IDIzNTUgNzYyIApRIDIzNTUgNDYxIDIyMDggMjc4IApRIDIwNjEgOTYgMTgxNCAxMyAKUSAxNTY4IC03MCAxMjgwIC03MCAKUSAxMDA1IC03MCA4NDEgLTEyIApRIDY3OCA0NSA1NTAgOTYgCkwgNTM4IDk2IApMIDQwMyAtNTEgCkwgMjY5IC01MSAKegoiIHRyYW5zZm9ybT0ic2NhbGUoMC4wMTU2MjUpIi8+CiAgICAgPC9kZWZzPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEwYiIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEwMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjguMjk2ODc1IDApIi8+CiAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtZmYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDc0LjcwMzEyNSAwKSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTExMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTIyLjcwMzEyNSAwKSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTExMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTYyLjIwMzEyNSAwKSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE5My43MDMxMjUgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMDQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxNy4yMDMxMjUgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI0Ny45MDYyNSAwKSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEwMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzA0LjkwNjI1IDApIi8+CiAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtMTBiIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNTEuMzEyNSAwKSIvPgogICAgPC9nPgogICA8L2c+CiAgIDxnIGlkPSJ0ZXh0XzE2Ij4KICAgIDwhLS0gbGVhc3QgY29udHJvbCBlbmVyZ3kgLS0+CiAgICA8ZyBzdHlsZT0iZmlsbDogIzQyODdmNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzA4LjE5NjA2OSA0ODIuNzY5ODAzKSBzY2FsZSgwLjMgLTAuMykiPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEwYiIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEwMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjguMjk2ODc1IDApIi8+CiAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtZmYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDc0LjcwMzEyNSAwKSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTExMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTIyLjcwMzEyNSAwKSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTExMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTYyLjIwMzEyNSAwKSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE5My43MDMxMjUgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMDEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxNy4yMDMxMjUgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI2MS43OTY4NzUgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMxMy4yMDMxMjUgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMTMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM3MC43OTY4NzUgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwMi4yOTY4NzUgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQzOS4yOTY4NzUgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMGIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ5MC43MDMxMjUgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MTkgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMDMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU0Mi41IDApIi8+CiAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtMTBkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1ODguOTA2MjUgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMDMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY0Ni41IDApIi8+CiAgICAgPHVzZSB4bGluazpocmVmPSIjU1RJWFR3b1RleHQtMTExIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2OTIuOTA2MjUgMCkiLz4KICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVElYVHdvVGV4dC0xMDUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDczMC45MDYyNSAwKSIvPgogICAgIDx1c2UgeGxpbms6aHJlZj0iI1NUSVhUd29UZXh0LTExOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzc5LjMxMjUgMCkiLz4KICAgIDwvZz4KICAgPC9nPgogIDwvZz4KIDwvZz4KIDxkZWZzPgogIDxjbGlwUGF0aCBpZD0icDhiYTMzOTVhYTAiPgogICA8cmVjdCB4PSIxMDUuNTQwNDQiIHk9IjEzLjczMDcxNiIgd2lkdGg9Ijg5MS40NTkzMiIgaGVpZ2h0PSI1MzMuMjc5MDQ0Ii8+CiAgPC9jbGlwUGF0aD4KIDwvZGVmcz4KPC9zdmc+Cg==;assetSource=assets/figures/rocket-requirements-trade-off.svg;" value="" vertex="1">
+                    <mxGeometry height="620" width="1000" x="460" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-front-1-list" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=32;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;div style=&quot;line-height: 40px&quot;&gt;&lt;ul style=&quot;margin: 0; padding-left: 26.07px; list-style-type: &#39;‣  &#39;&quot;&gt;&lt;li&gt;each point is an optimal landing, and moving along the curve trades fuel against control energy&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="40" width="1680" x="140" y="815" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-front-1-number" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=22;fontFamily=Helvetica;fontColor=#000000;" value="%slide%/%slides%" vertex="1">
+                    <mxGeometry height="26" width="200" x="1696" y="1037" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="5-5-second-case" name="case-study-second-case-1">
+        <mxGraphModel dx="1883" dy="1153" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="case-study-second-case-1-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=44;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;b&gt;Upright for the last 5 s: every optimal landing violates a requirement&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="44" width="1400" x="260" y="33.06" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-second-case-1-table" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=32;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;table style=&quot;border-collapse: collapse; font-size: 36px&quot;&gt;&lt;tr style=&quot;border-bottom: 2px solid #000000&quot;&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;upright for&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;optimal landing of&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(g\)&lt;br&gt;&lt;span style=&quot;font-size: 26px; color: #8b959e&quot;&gt;&lt;i&gt;glide cone&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(s\)&lt;br&gt;&lt;span style=&quot;font-size: 26px; color: #8b959e&quot;&gt;&lt;i&gt;soft touchdown&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(p\)&lt;br&gt;&lt;span style=&quot;font-size: 26px; color: #8b959e&quot;&gt;&lt;i&gt;tilt in flight&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(v\)&lt;br&gt;&lt;span style=&quot;font-size: 26px; color: #8b959e&quot;&gt;&lt;i&gt;speed&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(a\)&lt;br&gt;&lt;span style=&quot;font-size: 26px; color: #8b959e&quot;&gt;&lt;i&gt;upright&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(e\)&lt;br&gt;&lt;span style=&quot;font-size: 26px; color: #8b959e&quot;&gt;&lt;i&gt;target&lt;/i&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border-bottom: 2px solid #8b959e&quot;&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;the last 2 s&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;every order&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;the last 5 s&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;\(e\) lowest&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpred}{\boldsymbol{\times}}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpred}{\boldsymbol{\times}}\)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;\(e\) lowest&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpred}{\boldsymbol{\times}}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpred}{\boldsymbol{\times}}\)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;\(e\) lowest&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpred}{\boldsymbol{\times}}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpred}{\boldsymbol{\times}}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpred}{\boldsymbol{\times}}\)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;\(a\) lowest&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpred}{\boldsymbol{\times}}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;\(p\) lowest&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpred}{\boldsymbol{\times}}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: left&quot;&gt;\(s\) lowest&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpred}{\boldsymbol{\times}}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;td style=&quot;padding: 10px 26px; text-align: center&quot;&gt;\(\textcolor{dpgreen}{\checkmark}\)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+                    <mxGeometry height="640" width="1680" x="140" y="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-second-case-1-key" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;font color=&quot;#8b959e&quot;&gt;&lt;i&gt;each row is an optimal landing that the notebook computes&lt;/i&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="36" width="1680" x="140" y="735" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-second-case-1-list" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=32;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;div style=&quot;line-height: 40px&quot;&gt;&lt;ul style=&quot;margin: 0; padding-left: 26.07px; list-style-type: &#39;‣  &#39;&quot;&gt;&lt;li&gt;no landing meets all six requirements: at most five hold together&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="40" width="1680" x="140" y="815" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-second-case-1-number" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=22;fontFamily=Helvetica;fontColor=#000000;" value="%slide%/%slides%" vertex="1">
+                    <mxGeometry height="26" width="200" x="1696" y="1037" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="5-6-violated-requirements" name="case-study-violated-requirements-1">
+        <mxGraphModel dx="2151" dy="1317" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="case-study-violated-requirements-1-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=44;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;b&gt;The violated requirements depend on the order&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="44" width="1400" x="260" y="33.06" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-legend" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;font color=&quot;#8b959e&quot;&gt;&lt;i&gt;\(g\): glide cone, \(s\): soft touchdown, \(p\): tilt in flight, \(v\): speed, \(a\): upright, \(e\): target&lt;/i&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="36" width="1666.88" x="136.56" y="92" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-higher" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;font color=&quot;#8b959e&quot;&gt;&lt;i&gt;higher means more important&lt;/i&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="36" width="520" x="140" y="622" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(e\) lowest" vertex="1">
+                    <mxGeometry height="38" width="300" x="181.6" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-g" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(g\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="206.6" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-s" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(s\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="396.6" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-v" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(v\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="171.6" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-p" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(p\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="301.6" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-a" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(a\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="431.6" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-e" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(e\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="301.6" y="375.432" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-f" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(f\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="206.6" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-c" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(c\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="396.6" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-edge-gv" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="226.179" y="250.988" as="sourcePoint"/>
+                        <mxPoint x="212.021" y="286.295" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-edge-gp" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="257.219" y="243.944" as="sourcePoint"/>
+                        <mxPoint x="310.981" y="293.34" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-edge-sp" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="405.981" y="243.944" as="sourcePoint"/>
+                        <mxPoint x="352.219" y="293.34" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-edge-sa" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="437.021" y="250.988" as="sourcePoint"/>
+                        <mxPoint x="451.179" y="286.295" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-edge-ve" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="224.775" y="327.998" as="sourcePoint"/>
+                        <mxPoint x="308.425" y="384.718" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-edge-pe" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="331.6" y="340.284" as="sourcePoint"/>
+                        <mxPoint x="331.6" y="372.432" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-edge-ae" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="438.425" y="327.998" as="sourcePoint"/>
+                        <mxPoint x="354.775" y="384.718" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-edge-ef" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="318.216" y="425.026" as="sourcePoint"/>
+                        <mxPoint x="249.984" y="550.406" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-e-edge-ec" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="344.984" y="425.026" as="sourcePoint"/>
+                        <mxPoint x="413.216" y="550.406" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(a\) lowest" vertex="1">
+                    <mxGeometry height="38" width="300" x="607.2" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-g" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(g\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="632.2" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-s" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(s\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="822.2" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-v" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(v\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="632.2" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-p" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(p\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="822.2" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-e" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(e\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="727.2" y="375.432" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-a" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(a\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="727.2" y="462.716" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-f" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(f\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="632.2" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-c" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(c\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="822.2" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-edge-gv" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="662.2" y="253" as="sourcePoint"/>
+                        <mxPoint x="662.2" y="284.284" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-edge-gp" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="687.644" y="236.689" as="sourcePoint"/>
+                        <mxPoint x="826.756" y="300.595" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-edge-sp" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="852.2" y="253" as="sourcePoint"/>
+                        <mxPoint x="852.2" y="284.284" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-edge-ve" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="682.725" y="331.329" as="sourcePoint"/>
+                        <mxPoint x="736.675" y="381.387" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-edge-pe" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="831.675" y="331.329" as="sourcePoint"/>
+                        <mxPoint x="777.725" y="381.387" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-edge-ea" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="757.2" y="428.432" as="sourcePoint"/>
+                        <mxPoint x="757.2" y="459.716" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-edge-af" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="736.581" y="506.66" as="sourcePoint"/>
+                        <mxPoint x="682.819" y="556.056" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-a-edge-ac" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="777.819" y="506.66" as="sourcePoint"/>
+                        <mxPoint x="831.581" y="556.056" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(p\) lowest" vertex="1">
+                    <mxGeometry height="38" width="300" x="1032.8" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-g" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(g\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1057.8" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-s" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(s\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1247.8" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-v" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(v\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1057.8" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-a" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(a\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1247.8" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-e" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(e\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1152.8" y="375.432" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-p" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(p\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1152.8" y="462.716" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-f" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(f\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1057.8" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-c" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(c\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1247.8" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-edge-gv" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1087.8" y="253" as="sourcePoint"/>
+                        <mxPoint x="1087.8" y="284.284" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-edge-sa" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1277.8" y="253" as="sourcePoint"/>
+                        <mxPoint x="1277.8" y="284.284" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-edge-ve" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1108.325" y="331.329" as="sourcePoint"/>
+                        <mxPoint x="1162.275" y="381.387" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-edge-ae" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1257.275" y="331.329" as="sourcePoint"/>
+                        <mxPoint x="1203.325" y="381.387" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-edge-ep" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1182.8" y="428.432" as="sourcePoint"/>
+                        <mxPoint x="1182.8" y="459.716" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-edge-pf" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1162.181" y="506.66" as="sourcePoint"/>
+                        <mxPoint x="1108.419" y="556.056" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-p-edge-pc" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1203.419" y="506.66" as="sourcePoint"/>
+                        <mxPoint x="1257.181" y="556.056" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(s\) lowest" vertex="1">
+                    <mxGeometry height="38" width="300" x="1458.4" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-g" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(g\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1578.4" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-p" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(p\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1448.4" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-v" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(v\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1578.4" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-a" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(a\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1708.4" y="287.284" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-e" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(e\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1578.4" y="375.432" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-s" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(s\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1578.4" y="462.716" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-f" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(f\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1483.4" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-c" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(c\)" vertex="1">
+                    <mxGeometry height="50" width="60" x="1673.4" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-edge-gp" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1585.154" y="240.608" as="sourcePoint"/>
+                        <mxPoint x="1501.646" y="296.676" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-edge-gv" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1608.4" y="253" as="sourcePoint"/>
+                        <mxPoint x="1608.4" y="284.284" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-edge-ga" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1631.646" y="240.608" as="sourcePoint"/>
+                        <mxPoint x="1715.154" y="296.676" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-edge-pe" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1501.575" y="327.998" as="sourcePoint"/>
+                        <mxPoint x="1585.225" y="384.718" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-edge-ve" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1608.4" y="340.284" as="sourcePoint"/>
+                        <mxPoint x="1608.4" y="372.432" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-edge-ae" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1715.225" y="327.998" as="sourcePoint"/>
+                        <mxPoint x="1631.575" y="384.718" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-edge-es" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1608.4" y="428.432" as="sourcePoint"/>
+                        <mxPoint x="1608.4" y="459.716" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-edge-sf" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1587.781" y="506.66" as="sourcePoint"/>
+                        <mxPoint x="1534.019" y="556.056" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-order-s-edge-sc" edge="1" parent="1" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#000000;endArrow=none;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1629.019" y="506.66" as="sourcePoint"/>
+                        <mxPoint x="1682.781" y="556.056" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-violated-0" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=32;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="\(\textcolor{dpred}{\{a, e\}}\), \(\textcolor{dpred}{\{p, e\}}\) or \(\textcolor{dpred}{\{p, a, e\}}\)" vertex="1">
+                    <mxGeometry height="100" width="390" x="136.56" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-violated-1" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=32;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="\(\textcolor{dpred}{\{a\}}\)" vertex="1">
+                    <mxGeometry height="100" width="390" x="562.19" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-violated-2" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=32;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="\(\textcolor{dpred}{\{p\}}\)" vertex="1">
+                    <mxGeometry height="100" width="390" x="987.81" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-violated-3" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=32;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="\(\textcolor{dpred}{\{s\}}\)" vertex="1">
+                    <mxGeometry height="100" width="390" x="1413.44" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-key" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;font color=&quot;#8b959e&quot;&gt;&lt;i&gt;red: the requirements that the computed optimal landings violate&lt;/i&gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="36" width="1680" x="140" y="795" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-take-away" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;Every order has the same optimal landings when the six requirements can be satisfied.&lt;/div&gt;&lt;div style=&quot;line-height: 42px&quot;&gt;Trade-offs across constraints arise when they conflict.&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="96" width="1152" x="397" y="869" as="geometry"/>
+                </mxCell>
+                <mxCell id="case-study-violated-requirements-1-number" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=22;fontFamily=Helvetica;fontColor=#000000;" value="%slide%/%slides%" vertex="1">
+                    <mxGeometry height="26" width="200" x="1696" y="1037" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
