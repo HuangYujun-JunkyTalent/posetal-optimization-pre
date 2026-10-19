@@ -19,7 +19,10 @@
       "file": "${workspaceFolder}/../tools/draw-io/click-through.plugin.js"
     },
     {
-      "file": "${workspaceFolder}/.vscode/video.plugin.js"
+      "file": "${workspaceFolder}/../tools/draw-io/video.plugin.js"
+    },
+    {
+      "file": "${workspaceFolder}/.vscode/deck-folder.plugin.js"
     }
   ],
   "hediet.vscode-drawio.colorNames": {

@@ -5,4 +5,4 @@ slides.md
 style.css
 node_modules/
 .DS_Store
-.vscode/video.plugin.js
+.vscode/deck-folder.plugin.js
