@@ -22,7 +22,7 @@
       "file": "${workspaceFolder}/../tools/draw-io/media-bar.js"
     },
     {
-      "file": "${workspaceFolder}/../tools/draw-io/video.plugin.js"
+      "file": "${workspaceFolder}/../tools/draw-io/media.plugin.js"
     },
     {
       "file": "${workspaceFolder}/.vscode/deck-folder.plugin.js"
