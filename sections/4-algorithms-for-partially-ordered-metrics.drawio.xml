@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="19">
     <diagram id="4-1-section" name="section-algorithms-1">
-        <mxGraphModel dx="1772" dy="1085" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -16,8 +16,8 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="4-2-chains-1" name="optimization-through-chain-families-1">
-        <mxGraphModel dx="1772" dy="1085" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+    <diagram id="4-2-chains-1" name="optimization-through-chain-families-partition-1">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -237,8 +237,8 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="4-2-chains-2" name="optimization-through-chain-families-2">
-        <mxGraphModel dx="3012" dy="1844" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+    <diagram id="4-2-chains-2" name="optimization-through-chain-families-decomposition-1">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -435,7 +435,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="4-3-weights-1" name="scalarization-with-sequences-of-weights-1">
-        <mxGraphModel dx="1863" dy="1173" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -589,8 +589,8 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="4-3-weights-2" name="scalarization-with-sequences-of-weights-2">
-        <mxGraphModel dx="1863" dy="1173" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+    <diagram id="4-3-weights-2" name="scalarization-with-sequences-of-weights-guarantees-1">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -787,7 +787,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="4-3-limit" name="limit-of-weighted-optima-1">
-        <mxGraphModel dx="1863" dy="1173" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -939,7 +939,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="4-3-extensions-1" name="layered-extensions-1">
-        <mxGraphModel dx="1863" dy="1173" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1102,8 +1102,8 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="4-3-extensions-2" name="layered-extensions-2">
-        <mxGraphModel dx="1863" dy="1173" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+    <diagram id="4-3-extensions-2" name="layered-extensions-zero-upper-sets-1">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1285,7 +1285,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="4-3-targeting" name="targeting-every-upper-set-1">
-        <mxGraphModel dx="2738" dy="1676" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1368,7 +1368,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="4-4-reset-1" name="reset-metrics-to-explore-pointwise-layer-1">
-        <mxGraphModel dx="1863" dy="1173" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1820,7 +1820,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="4-5-minimal" name="minimal-layered-extensions-1">
-        <mxGraphModel dx="2008" dy="1229" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1772" dy="1085" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1965,10 +1965,10 @@
                 <mxCell id="minimal-layered-extensions-1-notation" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;font color=&quot;#8b959e&quot;&gt;&lt;i&gt;\(\textcolor{gray}{12 \mid 347 \mid 56}\) stands for \(\textcolor{gray}{(\{m_1, m_2\}, \{m_3, m_4, m_7\}, \{m_5, m_6\})}\)&lt;/i&gt;&lt;/font&gt;" vertex="1">
                     <mxGeometry height="40" width="960" x="830" y="700" as="geometry"/>
                 </mxCell>
-                <mxCell id="minimal-layered-extensions-1-theorem-0" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;To get \(\mathcal{X}^*_P = \bigcup_{\mathcal{B}} \mathcal{X}^*_{\mathcal{B}}\) for every convex \(\mathcal{X} \subseteq \mathbb{R}^n\) and convex metrics:&lt;br&gt;One need the family of every minimal layered extension.&lt;/div&gt;" vertex="1">
+                <mxCell id="minimal-layered-extensions-1-theorem-0" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;To get \(\mathcal{X}^*_P = \bigcup_{\mathcal{B}} \mathcal{X}^*_{\mathcal{B}}\) for every convex \(\mathcal{X} \subseteq \mathbb{R}^n\) and convex metrics:&lt;br&gt;One need the family of &lt;b&gt;every minimal layered extension&lt;/b&gt;.&lt;/div&gt;" vertex="1">
                     <mxGeometry height="95.99322509765625" width="908.4405517578125" x="506.2" y="820" as="geometry"/>
                 </mxCell>
-                <mxCell id="minimal-layered-extensions-1-theorem-1" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;Let every metric be \(\max\{f_m, 0\}\) with \(f_m\) strictly convex.&lt;br&gt;Then every family that targets every upper set gives \(\mathcal{X}^*_P\).&lt;/div&gt;" vertex="1">
+                <mxCell id="minimal-layered-extensions-1-theorem-1" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;Let every metric be \(\max\{f_m, 0\}\) with \(f_m\) strictly convex.&lt;br&gt;Then every &lt;b&gt;family that targets every upper set&lt;/b&gt; gives \(\mathcal{X}^*_P\).&lt;/div&gt;" vertex="1">
                     <mxGeometry height="96" width="783.8" x="568.1" y="951" as="geometry"/>
                 </mxCell>
                 <mxCell id="minimal-layered-extensions-1-frame-caption" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=28;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;div style=&quot;line-height: 36px&quot;&gt;&lt;font color=&quot;#8b959e&quot;&gt;&lt;i&gt;minimal: every layer has a metric strictly below one of the layer before it&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
@@ -1980,8 +1980,8 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="4-6-first-order-1" name="first-order-method-1">
-        <mxGraphModel dx="1863" dy="1173" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+    <diagram id="4-6-first-order-1" name="first-order-method-cones-1">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -2153,8 +2153,8 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="4-6-first-order-2" name="first-order-method-2">
-        <mxGraphModel dx="1772" dy="1085" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+    <diagram id="4-6-first-order-2" name="first-order-method-general-1">
+        <mxGraphModel dx="1606" dy="1282" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -2297,8 +2297,8 @@
                         <mxPoint x="1400" y="342" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="first-order-method-theorem-0" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;Every certifying upper set holds each metric below no improvable metric, because such a metric can never be excused.&lt;br&gt;\(U^*_x\) holds only these metrics, so its cone is the largest.&lt;br&gt;If any upper set certifies a direction, then \(U^*_x\) certifies it.&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="138" width="1559.2" x="180.4" y="795" as="geometry"/>
+                <mxCell id="first-order-method-theorem-0" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;\(U^*_x\) holds every metric that can never be execused to bare a loss, so its cone is the largest to search for improving direction.&lt;br&gt;If any upper set certifies a direction, then \(U^*_x\) certifies it.&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="95.99322509765625" width="1600.8603515625" x="159.4" y="816" as="geometry"/>
                 </mxCell>
                 <mxCell id="first-order-method-theorem-1" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;Every step improves posetally.&lt;br&gt;The method stops only where no direction improves posetally.&lt;/div&gt;" vertex="1">
                     <mxGeometry height="96" width="851.5" x="534.25" y="950" as="geometry"/>
@@ -2306,8 +2306,8 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="4-6-first-order-3" name="first-order-method-3">
-        <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+    <diagram id="4-6-first-order-3" name="first-order-method-gradient-1">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -2447,14 +2447,14 @@
                 <mxCell id="first-order-method-theorem-0" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;Take differentiable metrics and the gradient oracle.&lt;br&gt;Then \(x\) admits a posetally improving direction if and only if some \(d\) has \(\nabla m(x)^\top d &amp;lt; 0\) for every maximal metric \(m\).&lt;/div&gt;" vertex="1">
                     <mxGeometry height="96" width="1541.8" x="189.1" y="805" as="geometry"/>
                 </mxCell>
-                <mxCell id="first-order-method-list" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=32;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="&lt;div style=&quot;line-height: 40px&quot;&gt;&lt;ul style=&quot;margin: 0; padding-left: 26.07px; list-style-type: &#39;‣  &#39;&quot;&gt;&lt;li&gt;so a posetal descent is&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;steepest descent on the maximal metrics&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;(Fliege and Svaiter 2000)&lt;/span&gt;, here \(m_1, m_2\)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 8.44px&quot;&gt;&lt;font color=&quot;#b20000&quot;&gt;convex is not enough: \(\textcolor{dpred}{m_1 = x_1^2}\) and \(\textcolor{dpred}{m_2 = x_2^2}\) at \(\textcolor{dpred}{(0, 1)}\) admit no improving direction, while \(\textcolor{dpred}{(0, 0)}\) is better&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="109" width="1680" x="140" y="925" as="geometry"/>
+                <mxCell id="first-order-method-list" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=32;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 40px&quot;&gt;&lt;ul style=&quot;margin: 0; padding-left: 26.07px; list-style-type: &#39;‣  &#39;&quot;&gt;&lt;li&gt;so a posetal descent is&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;steepest descent on the maximal metrics&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;(Fliege and Svaiter 2000)&lt;/span&gt;, here \(m_1, m_2\)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="109" width="1680" x="189.1" y="928" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="4-6-strictly-convex" name="first-order-method-strictly-convex-1">
-        <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1424" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -2687,14 +2687,14 @@
                 <mxCell id="first-order-method-strictly-convex-1-theorem-0" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;Let every metric \(m\) be \(\max\{f_m, c_m\}\) with \(f_m\) strictly convex.&lt;br&gt;Then \(x \in \mathcal{X}^*_P\) if and only if \(x\) admits no posetally improving direction.&lt;/div&gt;" vertex="1">
                     <mxGeometry height="96" width="956.8" x="481.6" y="805" as="geometry"/>
                 </mxCell>
-                <mxCell id="first-order-method-strictly-convex-1-list" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=32;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 40px&quot;&gt;&lt;ul style=&quot;margin: 0; padding-left: 26.07px; list-style-type: &#39;‣  &#39;&quot;&gt;&lt;li&gt;&lt;font color=&quot;#b20000&quot;&gt;for differentiable strictly convex metrics, steepest descent on the maximal metrics is good enough: the less important metrics never matter&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="109" width="1680" x="140" y="928" as="geometry"/>
+                <mxCell id="first-order-method-strictly-convex-1-list" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=32;fontFamily=STIX Two Text;fontColor=#B30306;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 40px&quot;&gt;&lt;ul style=&quot;margin: 0; padding-left: 26.07px; list-style-type: &#39;‣  &#39;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;convex is not enough: \(\textcolor{dpred}{m_1 = x_1^2}\) and \(\textcolor{dpred}{m_2 = x_2^2}\) at \(\textcolor{dpred}{(0, 1)}\) admit no improving direction, while \(\textcolor{dpred}{(0, 0)}\) is better&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;scrollbar-color: rgba(100, 100, 100, 0.4) rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgba(100, 100, 100, 0.4) rgb(255, 255, 255); color: rgb(179, 3, 6);&quot;&gt;for differentiable strictly convex metrics, steepest descent on the maximal metrics is good enough: the less important metrics never matter&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="109" width="1680" x="153" y="908" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="4-summary" name="summary-semantics-and-algorithms-1">
-        <mxGraphModel dx="1863" dy="1173" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1606" dy="1282" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -2779,8 +2779,8 @@
                         <mxRectangle height="105" width="910" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="summary-semantics-and-algorithms-1-theorem-0" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;For convex \(\mathcal{X}\) and convex metrics, the minimal layered extensions together give \(\mathcal{X}^*_P\).&lt;br&gt;Let the metrics be \(\max\{f_m, c_m\}\) with \(f_m\) strictly convex.&lt;br&gt;Then \(x \in \mathcal{X}^*_P\) if and only if no direction improves \(x\) posetally.&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="138" width="1127.2" x="396.4" y="874" as="geometry"/>
+                <mxCell id="summary-semantics-and-algorithms-1-theorem-0" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=nowrap;overflow=visible;fillColor=#eef0f2;strokeColor=none;align=center;verticalAlign=middle;spacingLeft=24;spacingRight=24;fontSize=30;fontFamily=STIX Two Text;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;fontColor=#000000;" value="&lt;div style=&quot;line-height: 42px&quot;&gt;For convex \(\mathcal{X}\) and convex metrics, the minimal layered extensions together give \(\mathcal{X}^*_P\).&lt;br&gt;If metrics are like \(\max\{f_m, c_m\}\) with \(f_m\) strictly convex,&amp;nbsp; \(x \in \mathcal{X}^*_P\) if and only if no direction improves \(x\) posetally.&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="95.99322509765625" width="1497.9117431640625" x="211.39999999999998" y="895" as="geometry"/>
                 </mxCell>
                 <mxCell id="summary-semantics-and-algorithms-1-venn-chain" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=wrap;fillColor=#f4f5f6;strokeColor=#8b959e;strokeWidth=2;" value="" vertex="1">
                     <mxGeometry height="235" width="720" x="440" y="594" as="geometry"/>

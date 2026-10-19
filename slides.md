@@ -192,18 +192,18 @@ title: "Section algorithms"
 ---
 layout: default
 class: bleed
-title: "Optimization through chain families"
+title: "Optimization through chain families partition"
 ---
 
-<img class="slide" src="/slides-generated/slide-24.svg" alt="optimization-through-chain-families-1">
+<img class="slide" src="/slides-generated/slide-24.svg" alt="optimization-through-chain-families-partition-1">
 
 ---
 layout: default
 class: bleed
-title: "Optimization through chain families"
+title: "Optimization through chain families decomposition"
 ---
 
-<img class="slide" src="/slides-generated/slide-25.svg" alt="optimization-through-chain-families-2">
+<img class="slide" src="/slides-generated/slide-25.svg" alt="optimization-through-chain-families-decomposition-1">
 
 ---
 layout: default
@@ -216,10 +216,10 @@ title: "Scalarization with sequences of weights"
 ---
 layout: default
 class: bleed
-title: "Scalarization with sequences of weights"
+title: "Scalarization with sequences of weights guarantees"
 ---
 
-<img class="slide" src="/slides-generated/slide-27.svg" alt="scalarization-with-sequences-of-weights-2">
+<img class="slide" src="/slides-generated/slide-27.svg" alt="scalarization-with-sequences-of-weights-guarantees-1">
 
 ---
 layout: default
@@ -240,10 +240,10 @@ title: "Layered extensions"
 ---
 layout: default
 class: bleed
-title: "Layered extensions"
+title: "Layered extensions zero upper sets"
 ---
 
-<img class="slide" src="/slides-generated/slide-30.svg" alt="layered-extensions-2">
+<img class="slide" src="/slides-generated/slide-30.svg" alt="layered-extensions-zero-upper-sets-1">
 
 ---
 layout: default
@@ -288,26 +288,26 @@ title: "Minimal layered extensions"
 ---
 layout: default
 class: bleed
-title: "First order method"
+title: "First order method cones"
 ---
 
-<img class="slide" src="/slides-generated/slide-36.svg" alt="first-order-method-1">
-
----
-layout: default
-class: bleed
-title: "First order method"
----
-
-<img class="slide" src="/slides-generated/slide-37.svg" alt="first-order-method-2">
+<img class="slide" src="/slides-generated/slide-36.svg" alt="first-order-method-cones-1">
 
 ---
 layout: default
 class: bleed
-title: "First order method"
+title: "First order method general"
 ---
 
-<img class="slide" src="/slides-generated/slide-38.svg" alt="first-order-method-3">
+<img class="slide" src="/slides-generated/slide-37.svg" alt="first-order-method-general-1">
+
+---
+layout: default
+class: bleed
+title: "First order method gradient"
+---
+
+<img class="slide" src="/slides-generated/slide-38.svg" alt="first-order-method-gradient-1">
 
 ---
 layout: default
