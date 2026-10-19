@@ -19,6 +19,9 @@
       "file": "${workspaceFolder}/../tools/draw-io/click-through.plugin.js"
     },
     {
+      "file": "${workspaceFolder}/../tools/draw-io/media-bar.js"
+    },
+    {
       "file": "${workspaceFolder}/../tools/draw-io/video.plugin.js"
     },
     {
