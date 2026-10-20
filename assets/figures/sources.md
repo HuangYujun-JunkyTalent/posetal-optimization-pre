@@ -12,8 +12,7 @@ The cells hold the data because the draw.io editor of VS Code finds no picture b
 | `rocket-requirements-upright-violation.svg` | `decisions-metrics-1` | 55, under "Upright as a violation, and the least upright over bounds on on target and soft touchdown" |
 | `rocket-requirements-limit-of-one-extension.svg` | `scalarization-with-sequences-of-weights-guarantees-*` | 47, under "The landings of the case study, named by the physical sense of each violation" |
 | `rocket-requirements-tilt-front.svg` | `reset-metrics-to-explore-pointwise-layer-*` | 40, under "The front of $p$ against $a$, and the least $e$ among the landings no worse on both" |
-| `rocket-requirements-minimal-extensions.svg` | `minimal-layered-extensions-*` | 13, under "The slides name the metrics in words, and take the order $e$ lowest as the example of the algorithms" |
-| `rocket-requirements-three-orders.svg` | `case-study-orders-1` | 15, under the same heading |
+| `rocket-requirements-three-orders.svg` | `case-study-orders-1` | 15, under "The slides name the metrics in words, and take the order $e$ lowest as the example of the algorithms" |
 | `rocket-requirements-three-landing-values.svg` | `case-study-violated-requirements-1` | 49, under "The landings of the case study, named by the physical sense of each violation" |
 | `rocket-requirements-trade-off.svg` | `case-study-first-case-1` | 25, the code cell after the markdown cell that ends "and then the front alone for the slides." |
 
@@ -24,6 +23,7 @@ The still of each page, `<page>-still.png` beside it, is the picture of the page
 Only the editor without the media plugin shows a still, because every build draws the cell of a page as that picture.
 `rocket-requirements-conflict-surface.html` goes to `case-study-trade-off-1`, and `rocket-requirements-trajectories.html` to `running-example-landing-1`.
 The cell 5, under the heading of the cell 3, prints the limits of the requirements and the start that `running-example-landing-1` quotes.
+The slides `minimal-layered-extensions-*` draw the three minimal layered extensions in draw.io, from the list that the cell 11 prints, with a line for each covering pair of the order of on target lowest, as the other posets of the deck.
 The cell 11, under the heading of the cell 13, prints the numbers of the slides on the chain family and on the layered extensions, and the cell 38 prints the front and the reset of the slides `reset-metrics-to-explore-pointwise-layer-*`.
 
 The slides `case-study-first-case-1` and `case-study-violated-requirements-1` of the commit `152e0ed` draw the four orders in draw.io, from the orders that the notebook defines under the heading "Four orders put the requirements above the objectives".
@@ -36,7 +36,7 @@ Copy the files of the notebook again, from the workspace root:
 ```sh
 source=PosetalOptProj/posetal-opt/figures/slides
 assets=Presentations/posetal-optimization/assets
-for f in decision-thrusts upright-violation limit-of-one-extension tilt-front minimal-extensions three-orders three-landing-values trade-off; do
+for f in decision-thrusts upright-violation limit-of-one-extension tilt-front three-orders three-landing-values trade-off; do
     cp "$source/rocket-requirements-$f.svg" "$assets/figures/"
 done
 for f in upright-for-the-last-2-s-and-5-s lowest-requirement-gives-way; do
