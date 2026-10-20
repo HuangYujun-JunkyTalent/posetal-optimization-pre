@@ -22,6 +22,9 @@
       "file": "${workspaceFolder}/../tools/draw-io/edit-at-click.plugin.js"
     },
     {
+      "file": "${workspaceFolder}/../tools/draw-io/list-styles.plugin.js"
+    },
+    {
       "file": "${workspaceFolder}/../tools/draw-io/media-bar.js"
     },
     {
