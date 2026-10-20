@@ -6,8 +6,6 @@
     "watch": "python3 '../tools/draw-io/build-slides.py' watch --title 'Semantics and Algorithms for Multi-Objective Optimization with Priorities on Metrics' --palette '../formatsAndTemplates/draw-io/generalexam-palette.tex'",
     "pdf": "python3 '../tools/draw-io/build-slides.py' pdf --title 'Semantics and Algorithms for Multi-Objective Optimization with Priorities on Metrics' --palette '../formatsAndTemplates/draw-io/generalexam-palette.tex'",
     "html": "python3 '../tools/draw-io/build-slides.py' html --title 'Semantics and Algorithms for Multi-Objective Optimization with Priorities on Metrics' --palette '../formatsAndTemplates/draw-io/generalexam-palette.tex'",
-    "dev": "python3 '../tools/draw-io/build-slides.py' dev",
-    "export": "python3 '../tools/draw-io/build-slides.py' export",
     "outline": "python3 '../tools/draw-io/build-slides.py' outline"
   }
 }
