@@ -1,10 +1,7 @@
-# Words that the spelling check of LanguageTool takes as spelled right in this deck, one per line,
-# read by tools/draw-io/language-check.plugin.js in the editor and by npm run check.
-posetal
-posetally
-antichain
-antichains
-scalarization
+# Words that the spelling check takes as spelled right in this deck alone, one per line, read by
+# tools/draw-io/language-check.plugin.js in the editor and by npm run check: the names of people.
+# A word for every document, such as a term of the field, goes into the list of the LanguageTool
+# server instead, with human-tools/languagetool-words.zsh add WORD of the ai-workspace.
 Censi
 Fliege
 Hopcroft
