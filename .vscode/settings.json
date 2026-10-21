@@ -25,6 +25,9 @@
       "file": "${workspaceFolder}/../tools/draw-io/list-styles.plugin.js"
     },
     {
+      "file": "${workspaceFolder}/../tools/draw-io/language-check.plugin.js"
+    },
+    {
       "file": "${workspaceFolder}/../tools/draw-io/media-bar.js"
     },
     {

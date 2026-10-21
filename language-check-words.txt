@@ -1,0 +1,13 @@
+# Words that the spelling check of LanguageTool takes as spelled right in this deck, one per line,
+# read by tools/draw-io/language-check.plugin.js in the editor and by npm run check.
+posetal
+posetally
+antichain
+antichains
+scalarization
+Censi
+Fliege
+Hopcroft
+Malyuta
+Svaiter
+Yujun
