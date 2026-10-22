@@ -1,11 +1,17 @@
 {
   "name": "semantics-and-algorithms-for-multi-objective",
   "private": true,
+  "config": {
+    "title": "Semantics and Algorithms for Multi-Objective Optimization with Priorities on Metrics",
+    "palette": [
+      "../formatsAndTemplates/draw-io/generalexam-palette.tex"
+    ]
+  },
   "scripts": {
-    "build": "python3 '../tools/draw-io/build-slides.py' build --title 'Semantics and Algorithms for Multi-Objective Optimization with Priorities on Metrics' --palette '../formatsAndTemplates/draw-io/generalexam-palette.tex'",
-    "watch": "python3 '../tools/draw-io/build-slides.py' watch --title 'Semantics and Algorithms for Multi-Objective Optimization with Priorities on Metrics' --palette '../formatsAndTemplates/draw-io/generalexam-palette.tex'",
-    "pdf": "python3 '../tools/draw-io/build-slides.py' pdf --title 'Semantics and Algorithms for Multi-Objective Optimization with Priorities on Metrics' --palette '../formatsAndTemplates/draw-io/generalexam-palette.tex'",
-    "html": "python3 '../tools/draw-io/build-slides.py' html --title 'Semantics and Algorithms for Multi-Objective Optimization with Priorities on Metrics' --palette '../formatsAndTemplates/draw-io/generalexam-palette.tex'",
+    "build": "python3 '../tools/draw-io/build-slides.py' build",
+    "watch": "python3 '../tools/draw-io/build-slides.py' watch",
+    "pdf": "python3 '../tools/draw-io/build-slides.py' pdf",
+    "html": "python3 '../tools/draw-io/build-slides.py' html",
     "outline": "python3 '../tools/draw-io/build-slides.py' outline",
     "check": "python3 '../tools/draw-io/build-slides.py' check"
   }
