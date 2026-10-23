@@ -4,7 +4,7 @@
   "config": {
     "title": "Semantics and Algorithms for Multi-Objective Optimization with Priorities on Metrics",
     "palette": [
-      "../formatsAndTemplates/draw-io/generalexam-palette.tex"
+      "../formatsAndTemplates/draw-io/example-palette.tex"
     ]
   },
   "scripts": {
