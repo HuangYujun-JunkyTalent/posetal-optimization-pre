@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="17">
     <diagram id="3-1-section" name="section-semantics-1">
-        <mxGraphModel dx="1643" dy="1154" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1449" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -17,7 +17,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="3-2-posets-landings" name="partial-orders-1">
-        <mxGraphModel dx="1849" dy="1299" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1449" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -124,7 +124,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="3-2-posets" name="partial-orders-2">
-        <mxGraphModel dx="1849" dy="1299" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1449" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -255,7 +255,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="3-3-first-difference-landings" name="priority-layers-first-difference-1">
-        <mxGraphModel dx="1849" dy="1299" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1449" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -355,7 +355,7 @@
                 <mxCell id="priority-layers-first-difference-1-box-label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;fontSize=40;fontFamily=STIX Two Text;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSTIX%2BTwo%2BText%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700%26display%3Dswap;" value="\(\preceq_{\mathcal{B}}\)" vertex="1">
                     <mxGeometry height="60" width="73" x="1750" y="470" as="geometry"/>
                 </mxCell>
-                <mxCell id="priority-layers-first-difference-1-arrow-decision" edge="1" parent="1" source="priority-layers-first-difference-1-decision" style="edgeStyle=none;html=1;strokeWidth=4;strokeColor=#000000;endArrow=classic;endFill=1;exitX=1.0857;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.0056;entryY=0.3696;entryDx=0;entryDy=0;entryPerimeter=0;" target="priority-layers-first-difference-1-order-frame" value="">
+                <mxCell id="priority-layers-first-difference-1-arrow-decision" edge="1" parent="1" source="priority-layers-first-difference-1-decision" style="edgeStyle=none;html=1;strokeWidth=4;strokeColor=#000000;endArrow=classic;endFill=1;exitX=1.0857;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.001;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;" target="priority-layers-first-difference-1-order-frame" value="">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="330" y="220" as="sourcePoint"/>
                         <mxPoint x="945" y="270" as="targetPoint"/>

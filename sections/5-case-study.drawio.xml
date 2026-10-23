@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="7">
     <diagram id="5-1-section" name="section-case-study-1">
-        <mxGraphModel dx="1701" dy="1233" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1449" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -20,7 +20,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="5-2-orders" name="case-study-orders-1">
-        <mxGraphModel dx="1823" dy="1321" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1449" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -46,7 +46,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="5-3-first-case" name="case-study-first-case-1">
-        <mxGraphModel dx="1823" dy="1321" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1449" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -74,7 +74,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="5-3-first-case-2" name="case-study-first-case-2">
-        <mxGraphModel dx="1823" dy="1321" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1449" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -102,7 +102,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="5-5-second-case" name="case-study-second-case-1">
-        <mxGraphModel dx="1823" dy="1321" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1449" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -127,7 +127,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="5-6-violated-requirements" name="case-study-violated-requirements-1">
-        <mxGraphModel dx="1823" dy="1321" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel dx="1784" dy="1449" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -153,7 +153,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="5-7-trade-off" name="case-study-trade-off-1">
-        <mxGraphModel dx="1823" dy="1321" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
+        <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
