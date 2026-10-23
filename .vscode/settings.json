@@ -28,6 +28,9 @@
       "file": "${workspaceFolder}/../tools/draw-io/language-check.plugin.js"
     },
     {
+      "file": "${workspaceFolder}/../tools/draw-io/view-position.plugin.js"
+    },
+    {
       "file": "${workspaceFolder}/../tools/draw-io/media-bar.js"
     },
     {
